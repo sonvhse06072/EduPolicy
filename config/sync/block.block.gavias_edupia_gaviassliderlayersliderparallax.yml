@@ -1,0 +1,24 @@
+uuid: 1cd798fd-928a-4cba-b783-79ce245ff47c
+langcode: en
+status: true
+dependencies:
+  module:
+    - gavias_sliderlayer
+    - gaviasthemer
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_edupia_gaviassliderlayersliderparallax
+theme: gavias_edupia
+region: other
+weight: -12
+provider: null
+plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____3'
+settings:
+  id: 'gavias_sliderlayer_block:gavias_sliderlayer_block____3'
+  label: 'Gavias SliderLayer - Slider Parallax'
+  label_display: '0'
+  provider: gavias_sliderlayer
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: c26f00cd-2cc0-48f1-a4f0-47f00a8b10ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+_core:
+  default_config_hash: 8_inbfKp8t03Dycr0UrJCYLZf1V__Qknitm2lpq6Ym0
+id: commerce_product.field_course_includes
+field_name: field_course_includes
+entity_type: commerce_product
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

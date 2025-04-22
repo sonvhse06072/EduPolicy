@@ -1,0 +1,20 @@
+uuid: 317e510f-e861-40ab-ae67-4482cbe9288e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_edupia
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gavias_edupia_local_actions
+theme: gavias_edupia
+region: help
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

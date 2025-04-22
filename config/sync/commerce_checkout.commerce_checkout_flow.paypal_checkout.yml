@@ -1,0 +1,25 @@
+uuid: e6b30681-c494-416f-bb4e-0544a87b5bca
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+label: 'PayPal Checkout'
+id: paypal_checkout
+plugin: paypal_checkout
+configuration:
+  display_checkout_progress: true
+  panes:
+    review:
+      step: review
+      weight: '1'
+    completion_message:
+      step: complete
+      weight: '3'
+    order_summary:
+      view: ''
+      step: _sidebar
+      weight: '4'
+    paypal_checkout_payment_process:
+      step: payment
+      weight: '0'

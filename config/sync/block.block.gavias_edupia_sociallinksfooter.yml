@@ -1,0 +1,29 @@
+uuid: 799241e2-edb0-42d5-8b14-335bbd5156ff
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7e26e9e5-a2f4-4e12-9643-7c8954f954ef'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_edupia_sociallinksfooter
+theme: gavias_edupia
+region: before_footer
+weight: 0
+provider: null
+plugin: 'block_content:7e26e9e5-a2f4-4e12-9643-7c8954f954ef'
+settings:
+  id: 'block_content:7e26e9e5-a2f4-4e12-9643-7c8954f954ef'
+  label: 'Social links footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

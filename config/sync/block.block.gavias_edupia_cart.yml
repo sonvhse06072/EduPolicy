@@ -1,0 +1,25 @@
+uuid: b6e78d08-dfad-4e21-ac24-f305a8f39e12
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - gaviasthemer
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_edupia_cart
+theme: gavias_edupia
+region: cart
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+visibility: {  }

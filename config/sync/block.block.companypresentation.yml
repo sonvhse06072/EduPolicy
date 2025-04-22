@@ -1,0 +1,37 @@
+uuid: 60938efb-8f5c-4aae-b330-2440ca9e01f3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9db6746c-07ed-4976-8d06-1a9a56f38e24'
+  module:
+    - block_content
+    - gaviasthemer
+    - node
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: companypresentation
+theme: gavias_edupia
+region: sidebar_right
+weight: -8
+provider: null
+plugin: 'block_content:9db6746c-07ed-4976-8d06-1a9a56f38e24'
+settings:
+  id: 'block_content:9db6746c-07ed-4976-8d06-1a9a56f38e24'
+  label: ' Company presentation Portfolio'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      portfolio: portfolio

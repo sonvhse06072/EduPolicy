@@ -1,0 +1,24 @@
+uuid: afa20203-ac81-4329-b055-4a53d5bce9d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_what_learn
+  module:
+    - text
+_core:
+  default_config_hash: Lmj9SsSgTtNFoAdqKmDNJ4YLhbwoR4wzL1Mb1jnF8RE
+id: commerce_product.course.field_what_learn
+field_name: field_what_learn
+entity_type: commerce_product
+bundle: course
+label: 'What Will You Learn?'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

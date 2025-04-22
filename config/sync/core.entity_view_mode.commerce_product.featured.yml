@@ -1,0 +1,13 @@
+uuid: 860f269e-ef88-48d8-905b-c5fe14490df1
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: HmDWcidMQGfkz4QKMe-bcX4ocWHUaA7dTl9UlOx-YhA
+id: commerce_product.featured
+label: Featured
+description: ''
+targetEntityType: commerce_product
+cache: true

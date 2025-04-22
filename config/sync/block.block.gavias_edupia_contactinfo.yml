@@ -1,0 +1,29 @@
+uuid: c468492f-2bc6-4a10-9835-7852a80912d4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7da38301-272f-4979-8de1-06b564010f17'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_edupia_contactinfo
+theme: gavias_edupia
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+settings:
+  id: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
+  label: 'Contact info'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

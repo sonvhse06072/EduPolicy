@@ -1,0 +1,12 @@
+uuid: e2437a24-63e7-4b15-9bbc-963537519ef9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oSrs0Ww6ex4ULon5Y2w-qwYS9r8II1N5sXDGjgcikxg
+id: course
+label: Course
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

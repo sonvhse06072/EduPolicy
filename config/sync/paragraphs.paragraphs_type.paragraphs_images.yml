@@ -1,0 +1,12 @@
+uuid: 06cc943e-6ba6-4074-ba0d-b9551df4a693
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mYJ86ZLxzs-k1GPrjlJVGTh1ZV-rNAhA3SBMucX9VqA
+id: paragraphs_images
+label: 'Paragraphs Images'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

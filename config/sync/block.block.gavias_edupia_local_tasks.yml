@@ -1,0 +1,22 @@
+uuid: a406bf74-2a5a-4e68-94e7-44fa2a8f7617
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gavias_edupia
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gavias_edupia_local_tasks
+theme: gavias_edupia
+region: help
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

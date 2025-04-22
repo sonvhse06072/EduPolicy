@@ -1,0 +1,26 @@
+uuid: d9d25388-0759-48e3-ae92-5c088583e633
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.testimonial
+  module:
+    - text
+_core:
+  default_config_hash: 0stbuijHqJcwyWrcd_x6YngleZSV6ovRPpENQ0SCBqc
+id: node.testimonial.body
+field_name: body
+entity_type: node
+bundle: testimonial
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

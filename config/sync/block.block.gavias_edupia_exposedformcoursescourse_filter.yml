@@ -1,0 +1,29 @@
+uuid: 588059ce-6883-45e0-bec7-7e5a8063192d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.courses
+  module:
+    - gaviasthemer
+    - views
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+_core:
+  default_config_hash: 5hEOjmwDPt-2rAK4mW35w0NC69Sjw25OMNV_q43IWK0
+id: gavias_edupia_exposedformcoursescourse_filter
+theme: gavias_edupia
+region: other
+weight: -14
+provider: null
+plugin: 'views_exposed_filter_block:courses-course_filter'
+settings:
+  id: 'views_exposed_filter_block:courses-course_filter'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility: {  }

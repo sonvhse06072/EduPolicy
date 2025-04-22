@@ -1,0 +1,22 @@
+uuid: f6265dec-d120-4ba7-ac8d-124d553dba26
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gavias_edupia
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gavias_edupia_help
+theme: gavias_edupia
+region: help
+weight: -9
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

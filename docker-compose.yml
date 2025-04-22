@@ -8,6 +8,8 @@ services:
       MYSQL_DATABASE: $DB_NAME
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
+    volumes:
+      - ./data:/var/lib/mysql # Use bind mount
 
   php:
     image: wodby/drupal-php:$PHP_TAG
@@ -23,8 +25,8 @@ services:
     image: wodby/drupal-php:$PHP_TAG
     container_name: "${PROJECT_NAME}_crond"
     environment:
-      CRONTAB: "0 * * * * drush -r /var/www/html/web cron"
-    command: sudo -E crond -f -d 0
+      CRONTAB: "0 * * * * drush -r /var/www/html cron"
+    command: crond -f -d 0
     volumes:
       - ./:/var/www/html:cached
 
@@ -37,11 +39,12 @@ services:
       NGINX_LOG_LEVEL: debug
       NGINX_BACKEND_HOST: php
       NGINX_VHOST_PRESET: $NGINX_VHOST_PRESET
-      NGINX_SERVER_ROOT: /var/www/html/web
+      NGINX_SERVER_ROOT: /var/www/html
     volumes:
       - ./:/var/www/html:cached
     ports:
       - "80:80"
+
   pma:
     image: phpmyadmin/phpmyadmin
     container_name: "${PROJECT_NAME}_pma"

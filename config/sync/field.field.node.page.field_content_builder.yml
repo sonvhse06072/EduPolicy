@@ -1,0 +1,30 @@
+uuid: aee3b74e-427c-4795-a041-8e364a96ac4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_builder
+    - node.type.page
+  module:
+    - gavias_content_builder
+_core:
+  default_config_hash: 0BhPEeY6paCW8lvjKhjQcK53YLBPX6D_d7P-wrIjZBc
+id: node.page.field_content_builder
+field_name: field_content_builder
+entity_type: node
+bundle: page
+label: 'Content Builder'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default: ''
+    bid: '0'
+default_value_callback: ''
+settings:
+  role_field_gcb:
+    anonymous: 0
+    authenticated: 0
+    administrator: 0
+field_type: gavias_content_builder

@@ -1,0 +1,24 @@
+uuid: 398b0f70-56d8-47d8-9e05-f8b81ce88ac2
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.course
+    - field.storage.commerce_product.field_course_headline
+  module:
+    - text
+_core:
+  default_config_hash: jIQfVXVixVzPkx_vYADz0P76HmTRftvshWcwX0WUUHU
+id: commerce_product.course.field_course_headline
+field_name: field_course_headline
+entity_type: commerce_product
+bundle: course
+label: 'Course Headline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

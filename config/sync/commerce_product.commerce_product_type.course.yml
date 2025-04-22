@@ -1,0 +1,15 @@
+uuid: 4111d9e6-72ba-43b4-8d97-5462e270a588
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cxq9cQ079x8OboCCdTaECbFLaWwaqA3SyglFkukU93U
+id: course
+label: Course
+description: ''
+variationType: course
+variationTypes: {  }
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

@@ -30,7 +30,6 @@ dependencies:
   - gaviasthemer
   - image
   - imce
-  - mailchimp_signup
   - menu_ui
   - node
   - options

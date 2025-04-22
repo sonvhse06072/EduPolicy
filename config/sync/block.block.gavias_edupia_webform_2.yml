@@ -1,0 +1,29 @@
+uuid: db5c12fd-297b-4f0a-a0ef-e44435b611d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.register_course
+  module:
+    - gaviasthemer
+    - webform
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_edupia_webform_2
+theme: gavias_edupia
+region: other
+weight: -9
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform - Register Course'
+  label_display: '0'
+  provider: webform
+  webform_id: register_course
+  default_data: ''
+  redirect: false
+visibility: {  }
