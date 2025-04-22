@@ -1,0 +1,7 @@
+core/
+data/
+vendor/
+sites/default/files/
+/autoload.php
+modules/contrib/
+sites/default/settings.php

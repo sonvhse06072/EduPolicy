@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/modules/commerce/lib/commerceguys-intl/v2.0.1/tests" />
+        <option value="$PROJECT_DIR$/modules/commerce_paypal/lib/sainsburys-guzzle-oauth2-plugin/v3.0.6/tests" />
+      </list>
+    </option>
+  </component>
+</project>
