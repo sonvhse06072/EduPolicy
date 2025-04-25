@@ -22,4 +22,5 @@ settings:
   label_display: '0'
   provider: commerce_cart
   dropdown: true
+  show_if_empty: true
 visibility: {  }

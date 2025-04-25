@@ -351,6 +351,10 @@ h4, h5 {
   color: #4274F6;
 }
 
+.logo-theme {
+  width: 55px;
+}
+
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
@@ -7550,7 +7554,7 @@ div.error {
   visibility: hidden;
 }
 
-.owl-carousel .owl-item img {
+body .owl-carousel .owl-item img {
   display: inline-block;
   width: auto;
 }

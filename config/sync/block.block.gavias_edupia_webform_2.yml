@@ -26,4 +26,5 @@ settings:
   webform_id: register_course
   default_data: ''
   redirect: false
+  lazy: false
 visibility: {  }

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser_2
     - field.field.node.team.body
+    - field.field.node.team.field_cv
     - field.field.node.team.field_team_contact
     - field.field.node.team.field_team_description
     - field.field.node.team.field_team_education
@@ -33,81 +34,82 @@ bundle: team
 mode: teaser_2
 content:
   body:
-    label: hidden
     type: text_trimmed
-    weight: 1
+    label: hidden
     settings:
       trim_length: 120
     third_party_settings: {  }
+    weight: 1
     region: content
   field_team_contact:
-    weight: 5
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 5
     region: content
   field_team_description:
-    weight: 10
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 10
     region: content
   field_team_education:
-    weight: 6
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 6
     region: content
   field_team_email:
-    weight: 9
+    type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 9
     region: content
   field_team_image:
-    weight: 2
+    type: image
     label: hidden
     settings:
-      image_style: height
       image_link: content
+      image_style: height
     third_party_settings: {  }
-    type: image
+    weight: 2
     region: content
   field_team_name:
-    weight: 3
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   field_team_position:
-    weight: 4
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 4
     region: content
   field_team_quote:
-    weight: 7
+    type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 7
     region: content
   links:
-    weight: 0
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
+  field_cv: true
   field_team_facebook: true
   field_team_google: true
   field_team_linkedin: true

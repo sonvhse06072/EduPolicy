@@ -1,9 +1,9 @@
-uuid: 799241e2-edb0-42d5-8b14-335bbd5156ff
+uuid: a4c2c6e6-cf73-4740-917f-91acbeafe8aa
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:7e26e9e5-a2f4-4e12-9643-7c8954f954ef'
+    - 'block_content:basic:61f17841-749f-436d-9799-1dfeefd7ad43'
   module:
     - block_content
     - gaviasthemer
@@ -12,15 +12,15 @@ dependencies:
 third_party_settings:
   gaviasthemer:
     classes: ''
-id: gavias_edupia_sociallinksfooter
+id: gavias_edupia_copyright_2
 theme: gavias_edupia
-region: before_footer
+region: after_footer
 weight: 0
 provider: null
-plugin: 'block_content:7e26e9e5-a2f4-4e12-9643-7c8954f954ef'
+plugin: 'block_content:61f17841-749f-436d-9799-1dfeefd7ad43'
 settings:
-  id: 'block_content:7e26e9e5-a2f4-4e12-9643-7c8954f954ef'
-  label: 'Social links footer'
+  id: 'block_content:61f17841-749f-436d-9799-1dfeefd7ad43'
+  label: Copyright
   label_display: '0'
   provider: block_content
   status: true

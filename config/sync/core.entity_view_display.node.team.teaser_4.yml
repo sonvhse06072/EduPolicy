@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser_4
     - field.field.node.team.body
+    - field.field.node.team.field_cv
     - field.field.node.team.field_team_contact
     - field.field.node.team.field_team_description
     - field.field.node.team.field_team_education
@@ -32,40 +33,41 @@ bundle: team
 mode: teaser_4
 content:
   field_team_contact:
-    weight: 3
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   field_team_image:
-    weight: 0
+    type: image
     label: hidden
     settings:
-      image_style: height
       image_link: content
+      image_style: height
     third_party_settings: {  }
-    type: image
+    weight: 0
     region: content
   field_team_name:
-    weight: 1
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 1
     region: content
   field_team_position:
-    weight: 2
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 2
     region: content
 hidden:
   body: true
+  field_cv: true
   field_team_description: true
   field_team_education: true
   field_team_email: true

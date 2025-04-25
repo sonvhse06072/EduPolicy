@@ -11,7 +11,7 @@ a{
     outline: none!important;
     color: $theme_color;
     text-decoration: none;
-  } 
+  }
 }
 input, select, textarea{
   &:hover, &:focus, &:active{
@@ -43,7 +43,7 @@ img{
 }
 
 .body-page, .gva-body-page{
-  input[type="text"], 
+  input[type="text"],
   input[type="tel"],
   input[type="password"],
   input[type="email"],
@@ -90,7 +90,7 @@ ul {
       min-width: 20px;
       text-align: center;
     }
-  } 
+  }
 }
 .item-list{
   ul li{
@@ -148,7 +148,7 @@ table {
         border-width: 1px 1px 1px 0;
         border-style: solid;
       }
-    } 
+    }
   }
   > thead > tr {
     > th,
@@ -215,7 +215,7 @@ a.disable{
 }
 
 .breadcrumb-content-inner{
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
   text-align: left;
   background: #f8f8f8;
   .gva-breadcrumb-content{
@@ -232,21 +232,21 @@ a.disable{
       margin: 0 auto;
     }
     .breadcrumb-content-main{
-     
+
     }
     .gva-block-breadcrumb{
-      .breadcrumb-style{ 
+      .breadcrumb-style{
         padding: 68px 0;
         margin-bottom: 35px;
         position: relative;
         @include media-breakpoint-down(md){
           padding: 48px 0;
         }
-      }  
+      }
       &.text-white, &.text-light{
         *, .page-title{
           color: $white;
-        } 
+        }
         .breadcrumb-links li{
           color: rgba(255, 255, 255, 0.8);
           a{
@@ -257,7 +257,7 @@ a.disable{
           }
         }
       }
-    } 
+    }
 
     .breadcrumb-links{
       nav.breadcrumb{
@@ -275,9 +275,9 @@ a.disable{
           }
         }
       }
-    }  
+    }
   }
-}  
+}
 
 pre{
   @include border-radius(0!important);
@@ -293,7 +293,7 @@ h4, h5{
   line-height: 1.4;
 }
 
-.gav-help-region{ 
+.gav-help-region{
   position: relative;
   z-index: 1;
   width: 100%;
@@ -307,6 +307,10 @@ h4, h5{
       color: $theme_color;
     }
   }
+}
+
+.logo-theme {
+  width: 55px;
 }
 
 @media (max-width: 767px) {

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.team.body
+    - field.field.node.team.field_cv
     - field.field.node.team.field_team_contact
     - field.field.node.team.field_team_description
     - field.field.node.team.field_team_education
@@ -21,6 +22,7 @@ dependencies:
     - image.style.height
     - node.type.team
   module:
+    - file
     - image
     - text
     - user
@@ -32,125 +34,133 @@ bundle: team
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 101
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 101
+    region: content
+  field_cv:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 121
     region: content
   field_team_contact:
-    weight: 109
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 109
     region: content
   field_team_description:
-    weight: 114
+    type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
+    weight: 114
     region: content
   field_team_education:
-    weight: 110
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 110
     region: content
   field_team_email:
-    weight: 113
+    type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 113
     region: content
   field_team_facebook:
-    weight: 116
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 116
     region: content
   field_team_google:
-    weight: 117
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 117
     region: content
   field_team_image:
-    weight: 104
+    type: image
     label: hidden
     settings:
-      image_style: height
       image_link: ''
+      image_style: height
     third_party_settings: {  }
-    type: image
+    weight: 104
     region: content
   field_team_linkedin:
-    weight: 120
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 120
     region: content
   field_team_name:
-    weight: 106
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 106
     region: content
   field_team_pinterest:
-    weight: 118
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 118
     region: content
   field_team_position:
-    weight: 107
+    type: string
     label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 107
     region: content
   field_team_quote:
-    weight: 111
+    type: basic_string
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: basic_string
+    weight: 111
     region: content
   field_team_skills:
-    weight: 115
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 115
     region: content
   field_team_twitter:
-    weight: 119
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 119
     region: content
   links:
-    weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 100
+    region: content
 hidden: {  }
