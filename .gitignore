@@ -1,6 +1,6 @@
-core/
+/core/
 data/
-vendor/
+/vendor/
 sites/default/files/
 /autoload.php
 modules/contrib/
