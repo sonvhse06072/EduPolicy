@@ -33,4 +33,4 @@ visibility:
     id: request_path
     negate: false
     context_mapping: {  }
-    pages: "/our-team\r\n/team-list\r\n/node/69\r\n/node/71\r\n/node/73\r\n/node/74\r\n/node/75\r\n/team-grid\r\n/team-list"
+    pages: "/our-team\r\n/team-list\r\n/node/69\r\n/node/71\r\n/node/73\r\n/node/74\r\n/node/75\r\n/team-grid\r\n/team-list\r\n/collections-industry\r\n/about"
