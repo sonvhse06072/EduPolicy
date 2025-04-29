@@ -25,7 +25,7 @@
 #}
 <!DOCTYPE html>
 <html{{ html_attributes }}>
-  <head> 
+  <head>
     <head-placeholder token="{{ placeholder_token|raw }}">
     <title>{{ head_title|safe_join(' | ') }}</title>
     <css-placeholder token="{{ placeholder_token|raw }}">
@@ -34,6 +34,9 @@
 
     <link rel="stylesheet" href="{{ theme_path }}/css/custom.css" media="screen" />
     <link rel="stylesheet" href="{{ theme_path }}/css/update.css" media="screen" />
+
+    <script defer data-domain="54.251.134.153" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 
     {{ links_google_fonts|raw }}
 
@@ -66,12 +69,12 @@
     {{ page }}
     {{ page_bottom }}
     <js-bottom-placeholder token="{{ placeholder_token|raw }}">
-    
+
     {% if addon_template %}
       <div class="permission-save-{{ save_customize_permission }}">
         {% include addon_template %}
-      </div>  
+      </div>
     {% endif %}
-    
+
   </body>
 </html>
