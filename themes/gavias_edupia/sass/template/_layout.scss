@@ -3,8 +3,8 @@ html{
 }
 body{
   overflow-x: hidden;
-  &.boxed{ 
-    max-width: 1440px;  
+  &.boxed{
+    max-width: 1440px;
     margin: 0 auto;
     @include box-shadow(0px 5px 5px rgba(0, 0, 0, 0.15));
     background-color: #efefef;
@@ -28,10 +28,10 @@ body{
   padding: 8px 0;
   color: #c5c5c5;
   background: #1D1D1D;
-  a{ 
+  a{
     color: #c5c5c5;
     &:hover{
-      color: $theme_color; 
+      color: $theme_color;
     }
   }
   .block{
@@ -66,7 +66,7 @@ body{
         a{
           position: relative;
           padding: 0;
-          font-size: 13px;  
+          font-size: 13px;
           font-family: $font-second;
           font-weight: 500;
           &.link-user{
@@ -128,7 +128,7 @@ header{
   z-index: 99;
   .header-main{
     padding: 30px 0;
-    background: $white; 
+    background: $white;
   }
   .site-branding-logo{
     padding: 15px 0 10px;
@@ -176,7 +176,7 @@ header{
           cursor: pointer;
         }
       }
-      .search-content{ 
+      .search-content{
         display: none;
         width: 305px;
         position: absolute;
@@ -230,7 +230,7 @@ header{
       margin-right: 4px;
     }
     .icon{
-      font-size: 14px; 
+      font-size: 14px;
       color: $white;
       @include size(34px, 34px);
       background: $theme_color;
@@ -248,7 +248,7 @@ header{
       }
     }
   }
-  .user-content{ 
+  .user-content{
     display: none;
     width: 190px;
     position: absolute;
@@ -444,6 +444,15 @@ header.header-v2{
   }
 }
 
+.before-footer .gva_menu > li {
+  > a {
+    color: $white;
+  }
+  &.menu-item--active-trail > a {
+    color: $white;
+  }
+}
+
 header.header-v3{
   position: absolute;
   top: 0;
@@ -515,7 +524,7 @@ header.header-v3{
   .header-inner{
     padding-right: 65px;
   }
-}  
+}
 
 .gv-sticky-menu{
   @include transition(all 0.25s);
@@ -578,9 +587,9 @@ header.header-v3{
       .block{
         margin-bottom: 0;
       }
-    }  
+    }
   }
-}  
+}
 
 .footer{
   font-size: 14px;

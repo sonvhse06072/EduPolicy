@@ -1,14 +1,14 @@
-.box-margin-0{ 
-  margin-bottom: 0; 
+.box-margin-0{
+  margin-bottom: 0;
 }
-.box-margin-small{ 
-  margin-bottom: 30px; 
+.box-margin-small{
+  margin-bottom: 30px;
   @include media-breakpoint-down(sm){
     margin-bottom: 20px;
   }
 }
-.box-margin-medium{ 
-  margin-bottom: 50px; 
+.box-margin-medium{
+  margin-bottom: 50px;
   @include media-breakpoint-down(md){
     margin-bottom: 20px;
   }
@@ -16,8 +16,8 @@
     margin-top: 10px;
   }
 }
-.box-margin-large{ 
-  margin-bottom: 80px; 
+.box-margin-large{
+  margin-bottom: 80px;
   @include media-breakpoint-down(md){
     margin-bottom: 50px;
   }
@@ -38,19 +38,19 @@
 .margin-top-15{
   margin-top: 15px!important;
 }
-.margin-top-20{ 
+.margin-top-20{
   margin-top: 20px!important;
 }
-.margin-top-30{ 
+.margin-top-30{
   margin-top: 30px!important;
 }
-.margin-top-40{ 
+.margin-top-40{
   margin-top: 40px!important;
 }
-.margin-top-50{ 
+.margin-top-50{
   margin-top: 50px!important;
 }
-.margin-top-60{ 
+.margin-top-60{
   margin-top: 60px!important;
 }
 
@@ -177,7 +177,7 @@
 }
 .width-700{
   max-width: 700px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 .width-800{
   max-width: 800px;
@@ -221,16 +221,16 @@
     padding: 30px;
   }
 }
-  
+
 .special-margin-top{
-  margin-top: -120px; 
+  margin-top: -120px;
   @include media-breakpoint-down(md){
     margin-top: 20px;
   }
 }
 
 .special-margin-top-2{
-  margin-top: -120px; 
+  margin-top: -120px;
   @include media-breakpoint-down(md){
     margin-top: 10px;
     margin-bottom: 30px;
@@ -238,7 +238,7 @@
 }
 
 .margin-top-contact{
-  margin-top: -100px; 
+  margin-top: -100px;
   padding-bottom: 80px;
   @include media-breakpoint-down(md){
     margin-top: 30px;
@@ -294,7 +294,7 @@
 //Float
 .float-left{
   float: left;
-}   
+}
 .float-right{
   float: right;
   margin-right: 1px!important;
@@ -368,7 +368,7 @@
     font-size: 30px;
     line-height: 38px;
   }
-} 
+}
 .text-size-big{
   font-size: 36px;
   @include media-breakpoint-down(md){
@@ -393,7 +393,7 @@
 .color-white{
   color: $white!important;
 }
-.color-dark{ 
+.color-dark{
   color: $dark!important;
 }
 .color-black{
@@ -406,7 +406,7 @@
   // -webkit-background-size: cover;
   // -moz-background-size: cover;
   // -o-background-size: cover;
-  // background-size: cover; 
+  // background-size: cover;
   @include media-breakpoint-down(sm){
     background-attachment: scroll!important;
   }
@@ -493,7 +493,7 @@
     > a {
       font-weight: 600;
       color: $black;
-      padding: 8px 18px;   
+      padding: 8px 18px;
       border: none;
       font-size: 14px;
       background: none;
@@ -558,10 +558,8 @@
 }
 
 .init-carousel-owl{
-  margin-left: -15px;
-  margin-right: -15px;
   width: auto;
-  
+
   .owl-item > .item{
     padding-left: 15px;
     padding-right: 15px;
@@ -708,9 +706,9 @@ div.error{
     }
   }
   &:hover .owl-nav{
-    @include opacity(1); 
+    @include opacity(1);
      background: $white;
-    
+
   }
   &.carousel-thumbnail{
     &.text{
@@ -868,7 +866,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
   color: $white;
   overflow: hidden;
   @include transition(all 0.3s);
-  @include border-radius(6px);  
+  @include border-radius(6px);
   font-family: $font-second;
   font-size: 14px;
   font-weight: 700;
@@ -913,7 +911,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
 }
 
 
-/*************** Progress Bars ***************/  
+/*************** Progress Bars ***************/
 .progress-label {
   font-size: 12px;
   color: $text-color-2;
@@ -953,7 +951,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
     z-index: 9;
     color: $text-color;
     font-weight: 500;
-    
+
   }
 }
 
@@ -969,12 +967,12 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
   @include media-breakpoint-down(sm){
     margin-bottom: 35px;
   }
-  ul li{ 
+  ul li{
     list-style: none;
   }
   .plan-name {
     @include transition(all 0.35s);
-    font-weight: 600; 
+    font-weight: 600;
     padding: 15px 0 2px;
     .title {
       font-weight: 600;
@@ -1018,7 +1016,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
         float: left;
       }
     }
-  }  
+  }
   .plan-list{
     padding: 0;
     text-align: left;
@@ -1050,7 +1048,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
         }
       }
     }
-  }  
+  }
   .plan-signup {
     margin-top: 30px;
     a{
@@ -1106,7 +1104,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
       > a{
         display: block;
         letter-spacing: 0;
-        color: $black; 
+        color: $black;
         position: relative;
         background: $white;
         line-height: 28px;
@@ -1130,7 +1128,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
       }
     }
   }
-  
+
   .panel-body{
     border: none!important;
     line-height: 28px;
@@ -1194,7 +1192,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
   }
   .second-text{
     font-size: 16px;
-    color: $white; 
+    color: $white;
   }
   .link{
     margin-top: 30px;

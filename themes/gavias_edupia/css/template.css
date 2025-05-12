@@ -1005,6 +1005,14 @@ header.header-v3 .header-inner {
   padding-right: 65px;
 }
 
+.before-footer .gva_menu > li > a {
+  color: #fff;
+}
+
+.before-footer .gva_menu > li.menu-item--active-trail > a {
+  color: #fff;
+}
+
 .gv-sticky-menu {
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -7483,8 +7491,6 @@ body.maintenance-page {
 }
 
 .init-carousel-owl {
-  margin-left: -15px;
-  margin-right: -15px;
   width: auto;
 }
 

@@ -30,7 +30,7 @@ We call a macro which calls itself to render the full tree.
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
-<ul{{ attributes.addClass('row text-white justify-content-center h6') }}>
+<ul{{ attributes.addClass('row text-white justify-content-center h6 gva_menu d-none d-lg-flex') }}>
   {% else %}
   <ul class="menu sub-menu">
     {% endif %}
