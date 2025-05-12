@@ -1005,11 +1005,11 @@ header.header-v3 .header-inner {
   padding-right: 65px;
 }
 
-.before-footer .gva_menu > li > a {
+.before-footer .navigation .gva_menu > li > a {
   color: #fff;
 }
 
-.before-footer .gva_menu > li.menu-item--active-trail > a {
+.before-footer .navigation .gva_menu > li.menu-item--active-trail > a {
   color: #fff;
 }
 
