@@ -11,16 +11,20 @@ label: Content
 type: 'canonical_entities:node'
 pattern: '[node:title]'
 selection_criteria:
-  fb401831-51e4-4633-92bc-e79db56adc58:
+  4f0a7c48-89b3-42db-aa60-cbd069fcfabc:
     id: 'entity_bundle:node'
-    bundles:
-      article: article
-      page: page
-      portfolio: portfolio
     negate: false
+    uuid: 4f0a7c48-89b3-42db-aa60-cbd069fcfabc
     context_mapping:
       node: node
-    uuid: fb401831-51e4-4633-92bc-e79db56adc58
+    bundles:
+      article: article
+      event: event
+      lesson: lesson
+      page: page
+      portfolio: portfolio
+      resource: resource
+      team: team
 selection_logic: and
 weight: -5
 relationships: {  }

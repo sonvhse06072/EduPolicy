@@ -1,4 +1,4 @@
-uuid: 2f621ebd-3c0f-4c66-b518-d2ed93dea7dd
+uuid: c5911ddb-7d06-42c8-ae91-c7e010ed53a6
 langcode: en
 status: true
 dependencies:
@@ -9,12 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-_core:
-  default_config_hash: WO51auU8aCk-j30TkR9OR8JRIyPCW61ohvQO3u5DTqk
-name: Team
-type: team
+name: Resource
+type: resource
 description: null
 help: null
-new_revision: false
+new_revision: true
 preview_mode: 1
 display_submitted: true

@@ -582,6 +582,7 @@ display:
     display_plugin: page
     position: 4
     display_options:
+      title: 'Leadership Team'
       fields: {  }
       pager:
         type: full
@@ -623,6 +624,7 @@ display:
           relationship: none
           view_mode: teaser
       defaults:
+        title: false
         css_class: false
         use_ajax: false
         pager: false
