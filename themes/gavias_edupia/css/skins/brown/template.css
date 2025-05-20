@@ -824,7 +824,7 @@ header .block {
 
 header.header-v1 {
   position: relative;
-  background: #fff;
+  background: #1A4D8C;
   margin-top: 1px;
 }
 
@@ -10490,13 +10490,13 @@ body.open-popup:after {
     -moz-transition: all 0.35s;
     -ms-transition: all 0.35s;
     text-align: center;
-    color: #000;
+    color: #fff;
     text-transform: capitalize;
     font-family: "Montserrat", sans-serif;
   }
 
   .navigation .gva_menu > li > a:hover, .navigation .gva_menu > li > a:after, .navigation .gva_menu > li > a:active {
-    color: #684035;
+    color: #000;
   }
 
   .navigation .gva_menu > li > a:hover:before, .navigation .gva_menu > li > a:after:before, .navigation .gva_menu > li > a:active:before {
@@ -10505,7 +10505,7 @@ body.open-popup:after {
   }
 
   .navigation .gva_menu > li > a.is-active {
-    color: #684035;
+    color: #000;
   }
 
   .navigation .gva_menu > li > a.is-active:before {
@@ -10514,7 +10514,7 @@ body.open-popup:after {
   }
 
   .navigation .gva_menu > li.menu-item--active-trail > a {
-    color: #684035 !important;
+    color: #000 !important;
   }
 
   .navigation .gva_menu > li.megamenu.menu-columns-2 > ul.sub-menu > li {

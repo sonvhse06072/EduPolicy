@@ -14,14 +14,15 @@
       font-size: 28px;
       line-height: 38px;
     }
-    strong{ 
+    strong{
       position: relative;
       z-index: 1;
       color: $theme_color;
     }
   }
-  .sub-title{ 
-    color: #222;
+  .sub-title{
+    color: teal;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     font-size: 12px;
     font-family: $font-second;
     font-weight: 600;
@@ -85,7 +86,7 @@
     @include media-breakpoint-down(md){
       padding-bottom: 15px;
     }
-    .title{  
+    .title{
       font-size: 32px;
       text-transform: capitalize;
       line-height: 1.2;
@@ -103,13 +104,13 @@
   }
   &.style-3{
     padding: 0 0 35px;
-    .title{  
+    .title{
       font-size: 24px;
       text-transform: capitalize;
       line-height: normal;
       font-weight: 400;
     }
-  }  
+  }
   &.text-light{
     .title{
       color: $white;
