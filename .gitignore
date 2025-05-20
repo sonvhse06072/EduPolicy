@@ -5,3 +5,4 @@ sites/default/files/
 /autoload.php
 modules/contrib/
 sites/default/settings.php
+themes/gavias_edupia/node_modules/

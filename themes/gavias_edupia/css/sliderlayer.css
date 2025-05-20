@@ -5,6 +5,7 @@
 
 .tp-parallax-wrap {
   -webkit-transform-style: unset !important;
+  -moz-transform-style: unset !important;
   transform-style: unset !important;
 }
 
@@ -86,7 +87,7 @@
 }
 
 .gavias_sliderlayer .tparrows:hover, .gavias_sliderlayer .tparrows:focus, .gavias_sliderlayer .tparrows:active, #gavias_slider_single .tparrows:hover, #gavias_slider_single .tparrows:focus, #gavias_slider_single .tparrows:active {
-  background: #4274F6 !important;
+  background: #1A4D8C !important;
 }
 
 .gavias_sliderlayer .tparrows:hover:before, .gavias_sliderlayer .tparrows:focus:before, .gavias_sliderlayer .tparrows:active:before, #gavias_slider_single .tparrows:hover:before, #gavias_slider_single .tparrows:focus:before, #gavias_slider_single .tparrows:active:before {
@@ -118,7 +119,7 @@
   content: "";
   width: 5px;
   height: 100%;
-  background: #4274F6;
+  background: #1A4D8C;
   position: absolute;
   top: -2px;
   left: 0;
@@ -158,7 +159,7 @@
 }
 
 .gavias_sliderlayer .text-theme, #gavias_slider_single .text-theme {
-  color: #4274F6 !important;
+  color: #1A4D8C !important;
 }
 
 .gavias_sliderlayer .text-white, #gavias_slider_single .text-white {
@@ -178,7 +179,7 @@
 }
 
 .gavias_sliderlayer .btn-slide, .gavias_sliderlayer .btn-slide-white, #gavias_slider_single .btn-slide, #gavias_slider_single .btn-slide-white {
-  background: #4274F6;
+  background: #1A4D8C;
   color: #fff;
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -218,16 +219,16 @@
 }
 
 .gavias_sliderlayer .btn-slide:hover, .gavias_sliderlayer .btn-slide:focus, .gavias_sliderlayer .btn-slide:active, .gavias_sliderlayer .btn-slide.active, .gavias_sliderlayer .btn-slide-white:hover, .gavias_sliderlayer .btn-slide-white:focus, .gavias_sliderlayer .btn-slide-white:active, .gavias_sliderlayer .btn-slide-white.active, #gavias_slider_single .btn-slide:hover, #gavias_slider_single .btn-slide:focus, #gavias_slider_single .btn-slide:active, #gavias_slider_single .btn-slide.active, #gavias_slider_single .btn-slide-white:hover, #gavias_slider_single .btn-slide-white:focus, #gavias_slider_single .btn-slide-white:active, #gavias_slider_single .btn-slide-white.active {
-  color: #4274F6 !important;
+  color: #1A4D8C !important;
   background: #fff;
 }
 
 .gavias_sliderlayer .btn-slide:hover a, .gavias_sliderlayer .btn-slide:focus a, .gavias_sliderlayer .btn-slide:active a, .gavias_sliderlayer .btn-slide.active a, .gavias_sliderlayer .btn-slide-white:hover a, .gavias_sliderlayer .btn-slide-white:focus a, .gavias_sliderlayer .btn-slide-white:active a, .gavias_sliderlayer .btn-slide-white.active a, #gavias_slider_single .btn-slide:hover a, #gavias_slider_single .btn-slide:focus a, #gavias_slider_single .btn-slide:active a, #gavias_slider_single .btn-slide.active a, #gavias_slider_single .btn-slide-white:hover a, #gavias_slider_single .btn-slide-white:focus a, #gavias_slider_single .btn-slide-white:active a, #gavias_slider_single .btn-slide-white.active a {
-  color: #4274F6;
+  color: #1A4D8C;
 }
 
 .gavias_sliderlayer .btn-slide:hover:before, .gavias_sliderlayer .btn-slide:focus:before, .gavias_sliderlayer .btn-slide:active:before, .gavias_sliderlayer .btn-slide.active:before, .gavias_sliderlayer .btn-slide-white:hover:before, .gavias_sliderlayer .btn-slide-white:focus:before, .gavias_sliderlayer .btn-slide-white:active:before, .gavias_sliderlayer .btn-slide-white.active:before, #gavias_slider_single .btn-slide:hover:before, #gavias_slider_single .btn-slide:focus:before, #gavias_slider_single .btn-slide:active:before, #gavias_slider_single .btn-slide.active:before, #gavias_slider_single .btn-slide-white:hover:before, #gavias_slider_single .btn-slide-white:focus:before, #gavias_slider_single .btn-slide-white:active:before, #gavias_slider_single .btn-slide-white.active:before {
-  color: #4274F6;
+  color: #1A4D8C;
 }
 
 .gavias_sliderlayer .btn-slide-white, #gavias_slider_single .btn-slide-white {
@@ -244,7 +245,7 @@
 }
 
 .gavias_sliderlayer .btn-slide-white:hover a, .gavias_sliderlayer .btn-slide-white:focus a, .gavias_sliderlayer .btn-slide-white:active a, #gavias_slider_single .btn-slide-white:hover a, #gavias_slider_single .btn-slide-white:focus a, #gavias_slider_single .btn-slide-white:active a {
-  background: #4274F6;
+  background: #1A4D8C;
   color: #fff;
 }
 
@@ -254,6 +255,7 @@
   font-size: 13px;
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   cursor: pointer;
   display: inline-block;

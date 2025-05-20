@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'gva-icon';
+  font-family: "gva-icon";
   src: url("../fonts/icon/icon.eot?blahfl");
   src: url("../fonts/icon/icon.eot?blahfl#iefix") format("embedded-opentype"), url("../fonts/icon/icon.ttf?blahfl") format("truetype"), url("../fonts/icon/icon.woff?blahfl") format("woff"), url("../fonts/icon/icon.svg?blahfl#monia") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="gv-icon"], [class*=" gv-icon"] {
+[class^=gv-icon], [class*=" gv-icon"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'gva-icon' !important;
+  font-family: "gva-icon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;

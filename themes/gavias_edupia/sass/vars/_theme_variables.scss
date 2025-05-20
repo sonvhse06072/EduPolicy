@@ -1,7 +1,7 @@
 @import "../bootstrap/functions";
 @import "../bootstrap/variables";
- 
-// images folder path of theme 
+
+// images folder path of theme
 $base-theme-image-path : '../images'!default;
 
 //------- FONTS
@@ -10,18 +10,18 @@ $font-icon 								: "FontAwesome"!default;
 $font-icon-2                     : "gva-icon"!default;
 $font-second                     : 'Montserrat', sans-serif !default;
 //-------- COLOR --------------
-$black                           : #000 !default; 
-$black-2			 					   : #222 !default; 
-$white                           : #fff !default;  
+$black                           : #000 !default;
+$black-2			 					   : #222 !default;
+$white                           : #fff !default;
 $nocolor                         : transparent !default;
 
-//--------- COLORS  
-$text-color                       : #7e7e7e !default;// #686868 !default;  
+//--------- COLORS
+$text-color                       : #7e7e7e !default;// #686868 !default;
 $text-color-2                     : #273044 !default;
-$theme_color                      : #4274F6 !default;  //#82B440 #2C75E4
+$theme_color                      : #1A4D8C !default;  //#82B440 #2C75E4
 $theme-color-second               : #fc5546 !default; //#4AD2AD
 $border-color-dark                : rgba(255, 255, 255, 0.1)!default;
-$border-color                     : rgba(0, 0, 0, 0.1)!default; 
+$border-color                     : rgba(0, 0, 0, 0.1)!default;
 
 $color-red        : #D03632!default;
 $color-pink       : #FF69B4!default;
@@ -35,4 +35,4 @@ $color-violet     : #D9AC09!default;
 $color-navy       : #23569C!default;
 $color-purple     : #9A30D8!default;
 $color-gray       : #BFC0BC!default;
-$color-black      : #071F20!default;    
+$color-black      : #071F20!default;
