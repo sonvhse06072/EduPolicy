@@ -51,7 +51,7 @@
 		              	transform: rotateX(0);
 						}
 						> a {
-							color: $theme_color;
+							color: $color-yellow;
 						}
 					}
 				}
@@ -67,20 +67,20 @@
 					text-transform: capitalize;
 					font-family: $font-second;
 					&:hover, &:after, &:active{
-						color: $black;
+						color: $color-yellow;
 						&:before{
 							@include opacity(1);
 						}
 					}
 					&.is-active{
-						color: $black;
+						color: $color-yellow;
 						&:before{
 							@include opacity(1);
 						}
 					}
 				}
 				&.menu-item--active-trail > a{
-					color: $black!important;
+					color: $color-yellow !important;
 				}
 				&.megamenu{
 					&.menu-columns-2{

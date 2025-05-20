@@ -221,7 +221,7 @@ a.disable {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
 }
 
@@ -462,7 +462,7 @@ body.logged-in.toolbar-horizontal .header-v2 {
   position: relative;
   padding: 0;
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -644,7 +644,7 @@ header .block {
 
 .gva-user-region .user-top .account-name {
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   font-size: 12px;
@@ -690,7 +690,7 @@ header .block {
   -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(0, 0, 0, 0.06);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gva-user-region .user-content .link-user {
@@ -770,7 +770,7 @@ header .block {
   right: -8px;
   z-index: 9;
   font-size: 11px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -812,7 +812,7 @@ header .block {
 
 .quick-cart .cart-block-contents-links a {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #8EC44D;
@@ -1505,22 +1505,22 @@ body.maintenance-page {
 
 .gavias_sliderlayer .slide-style-1, #gavias_slider_single .slide-style-1 {
   font-weight: 900;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-2, #gavias_slider_single .slide-style-2 {
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-3, #gavias_slider_single .slide-style-3 {
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-4, #gavias_slider_single .slide-style-4 {
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-5, #gavias_slider_single .slide-style-5 {
@@ -1563,7 +1563,7 @@ body.maintenance-page {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -1583,7 +1583,7 @@ body.maintenance-page {
   -o-border-radius: 30px;
   display: inline-block;
   padding: 10px 24px 8px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -1731,7 +1731,7 @@ body.maintenance-page {
   line-height: 22px;
   font-weight: 600;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -1762,7 +1762,7 @@ body.maintenance-page {
 }
 
 .post-block .post-meta {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 13px;
@@ -1804,7 +1804,7 @@ body.maintenance-page {
 }
 
 .post-block .post-action a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   font-size: 12px;
 }
@@ -2192,7 +2192,7 @@ body.maintenance-page {
   color: #fff;
   font-weight: 500;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -2240,7 +2240,7 @@ body.maintenance-page {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .node--view-mode-full .field--name-body ul {
@@ -2267,7 +2267,7 @@ body.maintenance-page {
 .portfolio-filter ul.nav-tabs > li > a {
   font-size: 14px;
   padding: 2px 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
   font-weight: 600;
   -webkit-transition: all 0.35s;
@@ -2326,7 +2326,7 @@ body.maintenance-page {
 }
 
 .portfolio-v1 .content-inner .title a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 18px;
   color: #fff;
   font-weight: 600;
@@ -2393,7 +2393,7 @@ body.maintenance-page {
 }
 
 .portfolio-single .content-top .post-categories a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
@@ -2436,7 +2436,7 @@ body.maintenance-page {
   font-weight: 600;
   min-width: 120px;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #000;
   font-size: 14px;
 }
@@ -3742,7 +3742,7 @@ body.maintenance-page {
   font-weight: 600;
   color: #000;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 16px;
   margin-top: 5px;
 }
@@ -3750,7 +3750,7 @@ body.maintenance-page {
 .team-teaser-1 .team-job {
   font-size: 12px;
   color: #8EC44D;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .team-teaser-1 .socials {
@@ -3888,7 +3888,7 @@ body.maintenance-page {
   font-weight: 600;
   color: #000;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 18px;
   position: relative;
   margin-bottom: 15px;
@@ -3909,7 +3909,7 @@ body.maintenance-page {
 .team-teaser-2 .team-job {
   font-size: 13px;
   color: #8EC44D;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -3944,7 +3944,7 @@ body.maintenance-page {
 
 .team-teaser-3 .team-content {
   padding-left: 60px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   padding-top: 5px;
 }
@@ -3969,7 +3969,7 @@ body.maintenance-page {
 
 .team-teaser-4 .team-content {
   padding-left: 95px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   padding-top: 0;
 }
@@ -4008,7 +4008,7 @@ body.maintenance-page {
 }
 
 .team-single-page .team-name .job {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   color: #8EC44D;
 }
@@ -4021,7 +4021,7 @@ body.maintenance-page {
   font-size: 18px;
   font-weight: 600;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .team-single-page .team-contact {
@@ -4064,7 +4064,7 @@ body.maintenance-page {
   margin-top: 20px;
   padding-left: 50px;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .team-single-page .team-quote:after {
@@ -4100,7 +4100,7 @@ body.maintenance-page {
 
 .testimonial-node-v1 .video .popup-video {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -4158,7 +4158,7 @@ body.maintenance-page {
   line-height: 34px;
   font-weight: 400;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .testimonial-node-v1 .info {
@@ -4187,13 +4187,13 @@ body.maintenance-page {
   font-weight: 600;
   font-size: 16px;
   margin-top: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #000;
 }
 
 .testimonial-node-v1 .job {
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .testimonial-node-v2 {
@@ -4218,7 +4218,7 @@ body.maintenance-page {
   padding-top: 20px;
   color: #000;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -4231,7 +4231,7 @@ body.maintenance-page {
   font-size: 14px;
   display: block;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -4241,7 +4241,7 @@ body.maintenance-page {
   font-weight: 600;
   color: #000;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-align: center;
   text-transform: uppercase;
 }
@@ -4489,7 +4489,7 @@ body.maintenance-page {
 }
 
 .course-block .image .image-popup {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -4519,7 +4519,7 @@ body.maintenance-page {
   z-index: 11;
   font-size: 12px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -4547,7 +4547,7 @@ body.maintenance-page {
 }
 
 .course-block .course-content .content-inner .categories {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 4px;
@@ -4645,7 +4645,7 @@ body.maintenance-page {
 .course-block .course-content .course-footer {
   padding: 10px 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   color: #7e7e7e;
 }
@@ -4656,7 +4656,7 @@ body.maintenance-page {
 
 .course-block .course-content .course-footer .left .course-price {
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   background: #8EC44D;
   color: #fff;
   padding: 0 10px;
@@ -4666,7 +4666,7 @@ body.maintenance-page {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
 }
 
@@ -4762,7 +4762,7 @@ body.maintenance-page {
   width: 100%;
   background: none;
   padding: 0 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   -moz-appearance: none;
   color: #7e7e7e;
   background: #fff;
@@ -4774,7 +4774,7 @@ body.maintenance-page {
 
 .views-exposed-form .form-item label, .views-exposed-form .form-actions label {
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -4832,7 +4832,7 @@ body.maintenance-page {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .views-exposed-form .form-actions input:hover {
@@ -4976,7 +4976,7 @@ body.maintenance-page {
   width: 100%;
   background: none;
   padding: 0 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   -moz-appearance: none;
   color: #7e7e7e;
   background: #fff;
@@ -5114,7 +5114,7 @@ body.maintenance-page {
 }
 
 .categories-course-list .view-content-wrap .item a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 14px;
   color: #666666;
   -webkit-transition: all 0.35s;
@@ -5145,7 +5145,7 @@ body.maintenance-page {
   font-size: 16px;
   color: #000;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .course-block-heading-2 > div.course-title {
@@ -5227,7 +5227,7 @@ body.maintenance-page {
   text-transform: capitalize;
   font-weight: 600;
   width: 40%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 15px;
   line-height: 24px;
   padding-right: 10px;
@@ -5283,7 +5283,7 @@ body.maintenance-page {
 
 .course-block-v2 > div.course-category .field .field__item a {
   color: #8EC44D;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .course-block-v2 > div.course-category .field .field__item a:hover {
@@ -5292,7 +5292,7 @@ body.maintenance-page {
 
 .course-block-v2 > div.course-teacher {
   width: 20%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -5311,7 +5311,7 @@ body.maintenance-page {
 
 .course-block-v2 > div.content-action {
   width: 20%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -5407,7 +5407,7 @@ body.maintenance-page {
 }
 
 .featured-course-2 .image .image-popup {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -5437,7 +5437,7 @@ body.maintenance-page {
   z-index: 11;
   font-size: 12px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -5533,7 +5533,7 @@ body.maintenance-page {
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .featured-course-2 .right .course-bottom {
@@ -5605,7 +5605,7 @@ body.maintenance-page {
   margin-bottom: 8px;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -5685,7 +5685,7 @@ body.maintenance-page {
 
 .view-courses-featured-2 .carousel-nav .content-inner .info .right {
   padding-left: 95px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   color: #000;
   line-height: 22px;
@@ -5708,7 +5708,7 @@ body.maintenance-page {
 }
 
 .single-course .block-course-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #000;
@@ -5797,21 +5797,21 @@ body.maintenance-page {
 .single-course .course-right .course-meta .meta-item .content .lab {
   color: #8e8e8e;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   line-height: 1.2;
 }
 
 .single-course .course-right .course-meta .meta-item .content .val {
   display: inline-block;
   line-height: 1.2;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   font-size: 14px;
   float: right;
 }
 
 .single-course .course-right .course-meta .meta-item .content .val a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
 }
 
@@ -5830,7 +5830,7 @@ body.maintenance-page {
 .single-course .course-right .add-to-cart-content-inner .field--name-price {
   float: left;
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   color: #8EC44D;
   line-height: 35px;
@@ -5845,7 +5845,7 @@ body.maintenance-page {
   border: 1px solid #dee2e6;
   padding: 3px 15px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   width: 100%;
   margin-bottom: 20px;
   text-align: center;
@@ -6047,7 +6047,7 @@ body.maintenance-page {
   z-index: 11;
   font-size: 12px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
@@ -6071,7 +6071,7 @@ body.maintenance-page {
   z-index: 11;
   font-size: 12px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
 }
 
@@ -6214,7 +6214,7 @@ body.maintenance-page {
 .single-course .course-features .field__label {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   border-bottom: 1px solid #8EC44D;
   text-transform: uppercase;
   padding-bottom: 5px;
@@ -6247,7 +6247,7 @@ body.maintenance-page {
   position: relative;
   margin-bottom: 10px;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -6293,7 +6293,7 @@ body.maintenance-page {
 
 .lesson-block .lesson-content .lesson-title {
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .lesson-block .lesson-content .lesson-title .gva-pajax {
@@ -6337,7 +6337,7 @@ body.maintenance-page {
 .lesson-single .lessons .back-to-course {
   margin-bottom: 15px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #000;
   padding: 20px;
   background: #f5f5f5;
@@ -6636,7 +6636,7 @@ body.maintenance-page {
   -o-border-radius: 6px 6px 0 0;
   -webkit-box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1);
   box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.1);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .event-block .event-image .date .day {
@@ -6681,7 +6681,7 @@ body.maintenance-page {
 .event-block .event-content .event-info .title {
   font-size: 16px;
   line-height: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   display: block;
   margin: 5px 0;
   font-weight: 600;
@@ -6880,7 +6880,7 @@ body.maintenance-page {
 
 .event-block-list .event-date span.day {
   font-size: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   line-height: 1;
   margin-bottom: 3px;
@@ -6889,7 +6889,7 @@ body.maintenance-page {
 
 .event-block-list .event-title a {
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 14px;
   display: inline-block;
   line-height: 24px;
@@ -7742,7 +7742,7 @@ body.maintenance-page {
   border: none;
   font-size: 14px;
   background: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
 }
 
@@ -8187,7 +8187,7 @@ input[type=button], .btn, .btn-white, .btn-theme, .btn-black, input.js-form-subm
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 14px;
   font-weight: 700;
   text-transform: capitalize;
@@ -8243,7 +8243,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
   text-transform: capitalize;
   margin-bottom: 2px;
   text-align: left;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .progress {
@@ -8327,7 +8327,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
   font-weight: 600;
   color: #000;
   font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .pricing-table .content-wrap .plan-price {
@@ -8336,7 +8336,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
 
 .pricing-table .content-wrap .plan-price .price-value {
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .pricing-table .content-wrap .plan-price .price-value .dollar {
@@ -8356,7 +8356,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
   line-height: 40px;
   float: left;
   color: #8EC44D;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .pricing-table .content-wrap .plan-price .interval {
@@ -9034,7 +9034,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
   float: left;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #000;
 }
 
@@ -9043,7 +9043,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
 }
 
 .user-form details summary {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #8EC44D;
   font-weight: 500;
   text-transform: uppercase;
@@ -10117,7 +10117,7 @@ nav.breadcrumb ol > li span {
   font-weight: 600;
   margin-bottom: 10px;
   text-transform: capitalize;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .company-presentation .action {
@@ -10203,7 +10203,7 @@ nav.breadcrumb ol > li span {
   margin-right: 10px;
   margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
@@ -10474,7 +10474,7 @@ body.open-popup:after {
   }
 
   .navigation .gva_menu > li:hover > a {
-    color: #8EC44D;
+    color: #F4EC4D;
   }
 }
 
@@ -10492,11 +10492,11 @@ body.open-popup:after {
     text-align: center;
     color: #fff;
     text-transform: capitalize;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Georgia", sans-serif;
   }
 
   .navigation .gva_menu > li > a:hover, .navigation .gva_menu > li > a:after, .navigation .gva_menu > li > a:active {
-    color: #000;
+    color: #F4EC4D;
   }
 
   .navigation .gva_menu > li > a:hover:before, .navigation .gva_menu > li > a:after:before, .navigation .gva_menu > li > a:active:before {
@@ -10505,7 +10505,7 @@ body.open-popup:after {
   }
 
   .navigation .gva_menu > li > a.is-active {
-    color: #000;
+    color: #F4EC4D;
   }
 
   .navigation .gva_menu > li > a.is-active:before {
@@ -10514,7 +10514,7 @@ body.open-popup:after {
   }
 
   .navigation .gva_menu > li.menu-item--active-trail > a {
-    color: #000 !important;
+    color: #F4EC4D !important;
   }
 
   .navigation .gva_menu > li.megamenu.menu-columns-2 > ul.sub-menu > li {
@@ -10603,7 +10603,7 @@ body.open-popup:after {
     font-size: 14px;
     color: #000 !important;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Georgia", sans-serif;
     text-transform: uppercase;
     padding: 0 0 10px !important;
     margin-bottom: 10px !important;
@@ -10660,7 +10660,7 @@ body.open-popup:after {
     font-size: 13.5px;
     font-weight: 500;
     text-transform: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Georgia", sans-serif;
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -10797,7 +10797,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager {
 }
 
 ul[data-drupal-views-infinite-scroll-pager].pager a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   text-transform: capitalize;
   font-weight: 600;
@@ -10911,7 +10911,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   -ms-transition: all 0.35s;
   position: relative;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .category-list .item-list ul li a:hover, .category-list .item-list ul li a:focus, .category-list .item-list ul li a:active {
@@ -10988,7 +10988,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   text-transform: capitalize;
   font-size: 12px;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .tags-list .item-list > ul > li a:hover, .tags-list .item-list > ul > li a:focus, .tags-list .item-list > ul > li a:active {
@@ -11764,7 +11764,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   padding: 5px 66px 0 0;
   text-align: right;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   letter-spacing: 2px;
   position: relative;
   z-index: 9;
@@ -11869,7 +11869,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .widget.gsc-video-box.style-2 .video-content .link-video strong {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 16px;
 }
 
@@ -11894,7 +11894,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -11944,14 +11944,14 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-weight: 600;
   margin: 15px 0;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .widget.milestone-block .milestone-text {
   font-size: 16px;
   font-weight: 600;
   color: #273044;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -12064,7 +12064,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   line-height: 26px;
   margin: 0;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .widget.milestone-block[style*=background-color] {
@@ -12240,7 +12240,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-box-hover .backend .box-title:after {
@@ -12265,7 +12265,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-box-hover .backend .link-action a {
   color: #fff;
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   font-weight: 600;
 }
@@ -12288,7 +12288,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   color: #000;
   padding-bottom: 5px;
   text-transform: capitalize;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-box-hover:hover .frontend, .gsc-box-hover:hover .backend, .gsc-box-hover:active .frontend, .gsc-box-hover:active .backend, .gsc-box-hover:focus .frontend, .gsc-box-hover:focus .backend, .gsc-box-hover.active .frontend, .gsc-box-hover.active .backend {
@@ -13145,7 +13145,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   color: rgba(255, 255, 255, 0.9);
   line-height: 45px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-carousel-content.style-1 .content-box .content-inner .title a {
@@ -13191,7 +13191,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   color: #000;
   line-height: 45px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-carousel-content.style-2 .content-box .content-inner .title a {
@@ -13220,7 +13220,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   padding: 0 20px 15px 0;
   line-height: 1;
   color: #273044;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
 }
 
@@ -13240,7 +13240,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-size: 30px;
   color: #000;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 @media (max-width: 991.98px) {
@@ -13266,7 +13266,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .gsc-call-to-action .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-call-to-action .desc {
@@ -13486,7 +13486,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #000;
 }
 
@@ -13516,7 +13516,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   position: relative;
   margin-bottom: 10px;
   margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #000;
 }
 
@@ -13529,7 +13529,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   padding: 15px 20px;
   background: rgba(255, 255, 255, 0.6);
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;
@@ -13581,9 +13581,10 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .gsc-heading .sub-title {
-  color: #222;
+  color: teal;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -13769,7 +13770,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   color: #8EC44D;
   margin-bottom: 3px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
   line-height: 26px;
 }
@@ -14323,7 +14324,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-size: 12px;
   color: #8EC44D;
   text-transform: capitalize;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-image-content.skin-v2 .box-content .read-more a i {
@@ -14420,7 +14421,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 
 .gsc-image-content.skin-v3 .box-content .title {
   text-align: left;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-weight: 600;
   width: 100%;
   color: #fff;
@@ -14502,7 +14503,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   margin: 0 auto;
   display: inline-block;
   width: auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 14px;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
@@ -14555,7 +14556,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   display: inline-block;
   color: #8EC44D;
 }
@@ -14567,7 +14568,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gva-job-box .content-inner .box-title .title {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #222;
   text-transform: capitalize;
 }
@@ -14631,13 +14632,13 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-size: 18px;
   color: #000;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-our-partners .content-inner .info {
   font-size: 14px;
   padding: 5px 0 12px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-our-partners .content-inner .info .category {
@@ -14671,7 +14672,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   margin-bottom: 15px;
   font-weight: 700;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
 }
 
@@ -14814,7 +14815,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   display: block;
   font-weight: 600;
   line-height: 22px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   text-transform: capitalize;
 }
 
@@ -15044,7 +15045,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   background: none !important;
   position: relative;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 14px;
   text-transform: capitalize;
 }
@@ -15070,7 +15071,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 
 .gsc-tabs .tabs_wrapper.tabs_horizontal .nav-tabs > li a {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-tabs .tabs_wrapper.tabs_horizontal .tab-content {
@@ -15114,7 +15115,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-tabs .tabs_wrapper.tabs_vertical .nav-tabs > li a {
   width: 100%;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gsc-tabs .tabs_wrapper.tabs_vertical .nav-tabs > li:last-child {
@@ -15825,7 +15826,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     padding: 0 !important;
     font-weight: 600;
     text-transform: capitalize;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Georgia", sans-serif;
     color: #000 !important;
   }
 
@@ -15858,7 +15859,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     padding-top: 0 !important;
     padding-bottom: 4px !important;
     color: #222 !important;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Georgia", sans-serif;
     font-weight: 500;
   }
 

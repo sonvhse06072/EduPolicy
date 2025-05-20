@@ -128,22 +128,22 @@
 
 .gavias_sliderlayer .slide-style-1, #gavias_slider_single .slide-style-1 {
   font-weight: 900;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-2, #gavias_slider_single .slide-style-2 {
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-3, #gavias_slider_single .slide-style-3 {
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-4, #gavias_slider_single .slide-style-4 {
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
 }
 
 .gavias_sliderlayer .slide-style-5, #gavias_slider_single .slide-style-5 {
@@ -186,7 +186,7 @@
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -206,7 +206,7 @@
   -o-border-radius: 30px;
   display: inline-block;
   padding: 10px 24px 8px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Georgia", sans-serif;
   color: #fff;
   width: 100%;
   height: 100%;
