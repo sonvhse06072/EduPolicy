@@ -28,6 +28,12 @@ img {
   height: auto;
 }
 
+.card {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
 .video-responsive {
   height: 0;
   padding-top: 0;
@@ -4802,7 +4808,6 @@ body.maintenance-page {
 }
 
 .views-exposed-form .form-item {
-  padding-right: 20px;
   vertical-align: top;
 }
 
@@ -7620,6 +7625,10 @@ body.maintenance-page {
   color: #000 !important;
 }
 
+.color-teal {
+  color: #20c997 !important;
+}
+
 .gavias-parallax {
   background-attachment: fixed !important;
 }
@@ -8233,6 +8242,16 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
 .btn-black:hover {
   color: #fff;
   background: rgb(76.5, 76.5, 76.5) !important;
+}
+
+.btn-teal {
+  background: teal;
+  color: #fff;
+}
+
+.btn-teal:hover {
+  color: #fff;
+  background: #004d4d !important;
 }
 
 /*************** Progress Bars ***************/

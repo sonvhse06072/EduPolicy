@@ -126,7 +126,7 @@
       left: 15px;
       color: rgba(255, 255, 255, 0.8);
       z-index: 11;
-      font-size: 12px; 
+      font-size: 12px;
       line-height: 1;
       font-family: $font-second;
       font-weight: 500;
@@ -261,7 +261,7 @@
       }
     }
   }
-  
+
    &:hover{
       .image{
         &:after{
@@ -344,16 +344,15 @@
       color: $text-color;
       @include opacity(1);
     }
-    input::-moz-placeholder {  
+    input::-moz-placeholder {
       color: $text-color;
       @include opacity(1);
     }
-    input:-ms-input-placeholder {  
+    input:-ms-input-placeholder {
       color: $text-color;
     }
   }
   .form-item{
-    padding-right: 20px;
     vertical-align: top;
     .form-text{
       margin-top: 0;
@@ -712,7 +711,7 @@
         }
       }
     }
-    &.course-teacher{ 
+    &.course-teacher{
       width: 20%;
       font-family: $font-second;
       font-size: 14px;
@@ -821,7 +820,7 @@
       left: 15px;
       color: rgba(255, 255, 255, 0.8);
       z-index: 11;
-      font-size: 12px; 
+      font-size: 12px;
       line-height: 1;
       font-family: $font-second;
       font-weight: 500;
@@ -881,7 +880,7 @@
           text-decoration: underline;
         }
       }
-    } 
+    }
     .teacher{
       margin: 10px 0;
       a{
@@ -900,7 +899,7 @@
         float: right;
         .course-apply{
           padding: 0 20px;
-          line-height: 32px;          
+          line-height: 32px;
         }
       }
       .bottom-left{
@@ -1315,7 +1314,7 @@
     left: 15px;
     color: $white;
     z-index: 11;
-    font-size: 12px; 
+    font-size: 12px;
     line-height: 1;
     font-family: $font-second;
     font-weight: 600;
@@ -1406,7 +1405,7 @@
   .course-lessons{
     font-size: 14px;
   }
-  
+
   #node-single-comment{
     border: none;
     padding-top: 0;
@@ -1521,7 +1520,7 @@
   .lessons{
     .back-to-course{
       margin-bottom: 15px;
-      font-weight: 500; 
+      font-weight: 500;
       font-family: $font-second;
       color: $black;
       padding: 20px;
@@ -1591,7 +1590,7 @@
       }
     }
     tr{
-      @media(max-width: 550px){ 
+      @media(max-width: 550px){
         border-bottom: 1px solid $border-color;
       }
      td{

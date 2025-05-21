@@ -127,7 +127,7 @@ display:
                 advanced:
                   sort_options: false
                   rewrite:
-                    filter_rewrite_values: ''
+                    filter_rewrite_values: '- Any -|All regions'
                     filter_rewrite_values_key: false
                   collapsible: false
                   collapsible_disable_automatic_open: false
@@ -331,7 +331,7 @@ display:
           exposed: true
           expose:
             operator_id: field_region_value_op
-            label: Region
+            label: 'All Regions'
             description: ''
             use_operator: false
             operator: field_region_value_op
@@ -511,8 +511,77 @@ display:
     position: 1
     display_options:
       title: 'Regulatory Updates'
+      filters:
+        status:
+          id: status
+          table: node_field_data
+          field: status
+          entity_type: node
+          entity_field: status
+          plugin_id: boolean
+          value: '1'
+          group: 1
+          expose:
+            operator: ''
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            compliance_center: compliance_center
+        field_region_value:
+          id: field_region_value
+          table: node__field_region
+          field: field_region_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: list_field
+          operator: or
+          value: {  }
+          group: 1
+          exposed: true
+          expose:
+            operator_id: field_region_value_op
+            label: 'All Regions'
+            description: ''
+            use_operator: false
+            operator: field_region_value_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: field_region_value
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              administrator: '0'
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          reduce_duplicates: false
+      filter_groups:
+        operator: AND
+        groups:
+          1: AND
       defaults:
         title: false
+        filters: false
+        filter_groups: false
       display_description: ''
       exposed_block: false
       display_extenders: {  }

@@ -1,0 +1,21 @@
+{%
+  set classes = [
+  'bef-links',
+  is_nested ? 'bef-nested'
+]
+%}
+{% set is_nested = true %}
+{% for name, value in hiddens %}
+  <input type="hidden" name="{{ name }}" value="{{ value }}" />
+{% endfor %}
+<div class="card">
+  <div class="card-body">
+    {% for key, item in links %}
+      {% if key in selected %}
+        {{ item|add_class('btn text-left btn-block btn-primary') }}
+      {% else %}
+        {{ item|add_class('btn text-left btn-block btn-white border') }}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

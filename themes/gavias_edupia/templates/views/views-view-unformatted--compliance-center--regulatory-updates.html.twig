@@ -1,0 +1,38 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+{% if title %}
+  <h3>{{ title }}</h3>
+{% endif %}
+<h2 class="title fsize-0 mt-4 color-theme"><span>Stay Current with Evolving Requirements</span></h2>
+<p class="mb-4">
+  Our continuously monitored digest of regulatory developments provides practical implementation guidance for governance professionals.
+</p>
+<div class="view-content-wrap">
+  {% for row in rows %}
+    {%
+      set row_classes = [
+      default_row_class ? 'item',
+    ]
+    %}
+    <div{{ row.attributes.addClass(row_classes) }}>
+      {{ row.content }}
+    </div>
+  {% endfor %}
+</div>

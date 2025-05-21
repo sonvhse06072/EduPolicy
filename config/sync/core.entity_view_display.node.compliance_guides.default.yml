@@ -8,7 +8,6 @@ dependencies:
     - field.field.node.compliance_guides.field_image
     - field.field.node.compliance_guides.field_region
     - field.field.node.compliance_guides.field_resource_tags
-    - image.style.wide
     - node.type.compliance_guides
   module:
     - file
@@ -29,36 +28,32 @@ content:
     weight: 101
     region: content
   field_document:
-    type: file_default
-    label: above
-    settings:
-      use_description_as_link_text: true
+    type: file_url_plain
+    label: hidden
+    settings: {  }
     third_party_settings: {  }
     weight: 105
     region: content
   field_image:
-    type: image
+    type: image_url
     label: hidden
     settings:
-      image_link: ''
-      image_style: wide
-      image_loading:
-        attribute: eager
+      image_style: cover_image
     third_party_settings: {  }
     weight: -1
     region: content
   field_region:
     type: list_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 103
     region: content
   field_resource_tags:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     weight: 104
     region: content

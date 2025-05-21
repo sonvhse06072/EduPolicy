@@ -23,7 +23,7 @@ $black:    #000 !default;
 
 $grays: () !default;
 $grays: map-merge((
-  "100": $gray-100,
+  "100": #EFF2F5,
   "200": $gray-200,
   "300": $gray-300,
   "400": $gray-400,
@@ -40,7 +40,7 @@ $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
+$yellow:  gold !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
@@ -58,13 +58,13 @@ $colors: map-merge((
   "teal":       $teal,
   "cyan":       $cyan,
   "white":      $white,
-  "gray":       $gray-600,
+  "gray":       $gray-100,
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       #28B8DC !default;
+$primary:       #1A4D8C !default;
 $secondary:     $gray-600 !default;
-$success:       $green !default;
+$success:       $teal !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
@@ -127,7 +127,7 @@ $spacers: map-merge((
 ), $spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
-$sizes: () !default; 
+$sizes: () !default;
 $sizes: map-merge((
   25: 25%,
   50: 50%,
@@ -141,7 +141,7 @@ $sizes: map-merge((
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                #7e7e7e !default;
+$body-color:                #545454 !default;
 
 // Links
 //

@@ -399,6 +399,9 @@
 .color-black{
   color: #000!important;
 }
+.color-teal{
+  color: $teal!important;
+}
 
 //************* Background ********************/
 .gavias-parallax{
@@ -910,6 +913,14 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
   }
 }
 
+.btn-teal {
+  background: teal;
+  color: $white;
+  &:hover{
+    color: $white;
+    background: darken(teal, 10%)!important;
+  }
+}
 
 /*************** Progress Bars ***************/
 .progress-label {
