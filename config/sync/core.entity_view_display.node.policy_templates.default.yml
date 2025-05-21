@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.policy_templates.body
+    - field.field.node.policy_templates.field_document
     - field.field.node.policy_templates.field_resource_tags
     - field.field.node.policy_templates.field_template_categories
     - field.field.node.policy_templates.field_template_status
     - node.type.policy_templates
   module:
+    - file
     - options
     - text
     - user
@@ -24,24 +26,31 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
+  field_document:
+    type: file_url_plain
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
   field_resource_tags:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
-      link: true
+      link: false
     third_party_settings: {  }
     weight: 104
     region: content
   field_template_categories:
     type: list_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 102
     region: content
   field_template_status:
     type: list_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 105

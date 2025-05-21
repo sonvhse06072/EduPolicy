@@ -8,7 +8,7 @@
     view_mode ? 'node--view-mode-' ~ view_mode|clean_class
   ]
 %}
-{% if teaser == true %} 
+{% if teaser == true %}
 <div{{ attributes.addClass(classes)|without('about') }}>
   <div class="header-title">
     {{ title_prefix }}
@@ -34,13 +34,6 @@
 <!-- Start Display article for detail page -->
 
 <div{{ attributes.addClass(classes)|without('about') }}>
-  <div class="header-title">
-  
-    <div class="container">
-      <h2 class="title"><span>{{ label }}</span></h2>
-    </div>
-  </div>
-  
   <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
     {{ content }}
   </div>

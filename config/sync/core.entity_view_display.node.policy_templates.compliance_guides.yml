@@ -1,9 +1,9 @@
-uuid: 22357ff7-dbc6-48cb-aeb5-76c3129f30cd
+uuid: 180c7bc8-8ba0-439c-bc2b-6cfaaca0fce5
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.policy_templates
+    - core.entity_view_mode.node.compliance_guides
     - field.field.node.policy_templates.body
     - field.field.node.policy_templates.field_document
     - field.field.node.policy_templates.field_resource_tags
@@ -12,21 +12,12 @@ dependencies:
     - node.type.policy_templates
   module:
     - file
-    - options
-    - text
     - user
-id: node.policy_templates.policy_templates
+id: node.policy_templates.compliance_guides
 targetEntityType: node
 bundle: policy_templates
-mode: policy_templates
+mode: compliance_guides
 content:
-  body:
-    type: text_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_document:
     type: file_url_plain
     label: hidden
@@ -34,25 +25,13 @@ content:
     third_party_settings: {  }
     weight: 4
     region: content
-  field_resource_tags:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: false
-    third_party_settings: {  }
-    weight: 2
-    region: content
-  field_template_status:
-    type: list_default
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 100
     region: content
 hidden:
+  body: true
+  field_resource_tags: true
   field_template_categories: true
+  field_template_status: true

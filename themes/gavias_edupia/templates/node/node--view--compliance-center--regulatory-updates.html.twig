@@ -1,15 +1,3 @@
-{%
-  set classes = [
-  'node',
-  'node--type-' ~ node.bundle|clean_class,
-  node.isPromoted() ? 'node--promoted',
-  node.isSticky() ? 'node--sticky',
-  not node.isPublished() ? 'node--unpublished',
-  view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
-  'clearfix',
-]
-%}
-
 <div class="card mb-4">
   <div class="card-body">
     <div class="d-flex mb-3 justify-content-between align-items-center">
@@ -20,10 +8,10 @@
       <span><a href="{{ url }}" rel="bookmark">{{ label }}</a></span>
     </h5>
     {{ content.body }}
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between align-items-center">
       {{ date }}
       <div class="read-more">
-        <a href="{{ url }}" class="color-teal">Read Full Analysis</a>
+        <a href="{{ url }}" class="btn btn-teal">Read Full Analysis</a>
       </div>
     </div>
   </div>

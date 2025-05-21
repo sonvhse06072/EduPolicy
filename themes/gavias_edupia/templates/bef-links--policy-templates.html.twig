@@ -1,0 +1,25 @@
+{% for name, value in hiddens %}
+  <input type="hidden" name="{{ name }}" value="{{ value }}" />
+{% endfor %}
+<h2 class="title fsize-0 mt-4 color-theme"><span>Jump-Start Compliance Efforts</span></h2>
+<p class="mb-4">
+  Professionally crafted templates addressing common governance scenarios across different regulatory contexts.
+</p>
+<div class="card mb-4">
+  <div class="card-body">
+    <h2 class="title fsize-0 mt-4 color-theme mb-3"><span>Template Categories</span></h2>
+    <div class="row">
+      {% for key, item in links %}
+        {% if key in selected %}
+          <div class="col-6 mb-3">
+            {{ item|add_class('btn btn-block btn-primary') }}
+          </div>
+        {% else %}
+          <div class="col-6 mb-3">
+            {{ item|add_class('btn btn-block btn-white border') }}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

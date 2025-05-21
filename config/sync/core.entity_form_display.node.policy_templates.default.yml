@@ -4,11 +4,13 @@ status: true
 dependencies:
   config:
     - field.field.node.policy_templates.body
+    - field.field.node.policy_templates.field_document
     - field.field.node.policy_templates.field_resource_tags
     - field.field.node.policy_templates.field_template_categories
     - field.field.node.policy_templates.field_template_status
     - node.type.policy_templates
   module:
+    - file
     - path
     - text
 id: node.policy_templates.default
@@ -31,6 +33,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_document:
+    type: file_generic
+    weight: 125
+    region: content
+    settings:
+      progress_indicator: throbber
     third_party_settings: {  }
   field_resource_tags:
     type: entity_reference_autocomplete

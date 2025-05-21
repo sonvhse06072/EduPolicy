@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.policy_templates.body
+    - field.field.node.policy_templates.field_document
     - field.field.node.policy_templates.field_resource_tags
     - field.field.node.policy_templates.field_template_categories
     - field.field.node.policy_templates.field_template_status
@@ -31,6 +32,7 @@ content:
     weight: 100
     region: content
 hidden:
+  field_document: true
   field_resource_tags: true
   field_template_categories: true
   field_template_status: true

@@ -922,6 +922,15 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
   }
 }
 
+.btn-light {
+  background: $white;
+  color: $teal;
+  &:hover{
+    color: darken(teal, 10%);
+    background: $white;
+  }
+}
+
 /*************** Progress Bars ***************/
 .progress-label {
   font-size: 12px;

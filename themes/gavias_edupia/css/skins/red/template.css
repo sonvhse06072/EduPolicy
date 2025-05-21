@@ -8254,6 +8254,16 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
   background: #004d4d !important;
 }
 
+.btn-light {
+  background: #fff;
+  color: #20c997;
+}
+
+.btn-light:hover {
+  color: #004d4d;
+  background: #fff;
+}
+
 /*************** Progress Bars ***************/
 .progress-label {
   font-size: 12px;

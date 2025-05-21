@@ -4,11 +4,13 @@ use Drupal\Core\Template\Attribute;
 function gavias_edupia_form_views_exposed_form_alter(array &$form) {
   //You need to verify the id
   global $base_url;
-  
+
   $form['sort_by']['#weight'] = '-3';
   $form['sort_order']['#weight'] = '-2';
 
-  $form['title']['#attributes']['placeholder'] = $form['#info']['filter-title']['label'];
+  if (array_key_exists('filter-title', $form['#info'])) {
+    $form['title']['#attributes']['placeholder'] = $form['#info']['filter-title']['label'];
+  }
   //unset($form['#info']['filter-title']['label']);
 
   foreach ($form['#info'] as $filter_info) {

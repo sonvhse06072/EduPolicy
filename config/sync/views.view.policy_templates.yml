@@ -1,19 +1,17 @@
-uuid: 0f446276-c053-4731-93f3-ed7ee33d5750
+uuid: 9ca0d625-0a13-404d-bbd4-d01657c8341d
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.policy_templates
-    - node.type.compliance_center
-    - node.type.compliance_guides
     - node.type.policy_templates
   module:
     - better_exposed_filters
     - node
     - options
     - user
-id: compliance_center
-label: 'Compliance Center'
+id: policy_templates
+label: 'Policy Templates'
 module: views
 description: ''
 tag: ''
@@ -26,7 +24,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Compliance Center'
+      title: 'Policy Templates'
       fields:
         title:
           id: title
@@ -122,12 +120,12 @@ display:
               secondary_open: false
               reset_button_always_show: false
             filter:
-              field_region_value:
+              field_template_categories_value:
                 plugin_id: bef_links
                 advanced:
                   sort_options: false
                   rewrite:
-                    filter_rewrite_values: '- Any -|All regions'
+                    filter_rewrite_values: ''
                     filter_rewrite_values_key: false
                   collapsible: false
                   collapsible_disable_automatic_open: false
@@ -180,11 +178,11 @@ display:
           entity_field: type
           plugin_id: bundle
           value:
-            compliance_center: compliance_center
-        field_region_value:
-          id: field_region_value
-          table: node__field_region
-          field: field_region_value
+            policy_templates: policy_templates
+        field_template_categories_value:
+          id: field_template_categories_value
+          table: node__field_template_categories
+          field: field_template_categories_value
           relationship: none
           group_type: group
           admin_label: ''
@@ -194,14 +192,14 @@ display:
           group: 1
           exposed: true
           expose:
-            operator_id: field_region_value_op
-            label: Region
+            operator_id: field_template_categories_value_op
+            label: 'All categories'
             description: ''
             use_operator: false
-            operator: field_region_value_op
+            operator: field_template_categories_value_op
             operator_limit_selection: false
             operator_list: {  }
-            identifier: field_region_value
+            identifier: field_template_categories_value
             required: false
             remember: false
             multiple: false
@@ -225,10 +223,6 @@ display:
           reduce_duplicates: false
       style:
         type: default
-        options:
-          row_class: ''
-          default_row_class: true
-          uses_fields: false
       row:
         type: 'entity:node'
         options:
@@ -256,210 +250,13 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
-  compliance_guides:
-    id: compliance_guides
-    display_title: 'Compliance Guides'
+  block_1:
+    id: block_1
+    display_title: 'Policy Templates'
     display_plugin: block
     position: 1
     display_options:
-      title: 'Compliance Guides'
-      filters:
-        status:
-          id: status
-          table: node_field_data
-          field: status
-          entity_type: node
-          entity_field: status
-          plugin_id: boolean
-          value: '1'
-          group: 1
-          expose:
-            operator: ''
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          relationship: none
-          group_type: group
-          admin_label: ''
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-          operator: in
-          value:
-            compliance_guides: compliance_guides
-          group: 1
-          exposed: false
-          expose:
-            operator_id: ''
-            label: ''
-            description: ''
-            use_operator: false
-            operator: ''
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: ''
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-        field_region_value:
-          id: field_region_value
-          table: node__field_region
-          field: field_region_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: list_field
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_region_value_op
-            label: 'All Regions'
-            description: ''
-            use_operator: false
-            operator: field_region_value_op
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: field_region_value
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      defaults:
-        title: false
-        filters: false
-        filter_groups: false
       display_description: ''
-      exposed_block: false
-      display_extenders: {  }
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags: {  }
-  regulatory_updates:
-    id: regulatory_updates
-    display_title: 'Regulatory Updates'
-    display_plugin: block
-    position: 1
-    display_options:
-      title: 'Regulatory Updates'
-      filters:
-        status:
-          id: status
-          table: node_field_data
-          field: status
-          entity_type: node
-          entity_field: status
-          plugin_id: boolean
-          value: '1'
-          group: 1
-          expose:
-            operator: ''
-        type:
-          id: type
-          table: node_field_data
-          field: type
-          entity_type: node
-          entity_field: type
-          plugin_id: bundle
-          value:
-            compliance_center: compliance_center
-        field_region_value:
-          id: field_region_value
-          table: node__field_region
-          field: field_region_value
-          relationship: none
-          group_type: group
-          admin_label: ''
-          plugin_id: list_field
-          operator: or
-          value: {  }
-          group: 1
-          exposed: true
-          expose:
-            operator_id: field_region_value_op
-            label: 'All Regions'
-            description: ''
-            use_operator: false
-            operator: field_region_value_op
-            operator_limit_selection: false
-            operator_list: {  }
-            identifier: field_region_value
-            required: false
-            remember: false
-            multiple: false
-            remember_roles:
-              authenticated: authenticated
-              anonymous: '0'
-              administrator: '0'
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          reduce_duplicates: false
-      filter_groups:
-        operator: AND
-        groups:
-          1: AND
-      defaults:
-        title: false
-        filters: false
-        filter_groups: false
-      display_description: ''
-      exposed_block: false
       display_extenders: {  }
     cache_metadata:
       max-age: -1

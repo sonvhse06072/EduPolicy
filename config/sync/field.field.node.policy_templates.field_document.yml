@@ -1,0 +1,27 @@
+uuid: 77f474c3-3307-4ee9-8abe-7e6c091b9507
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_document
+    - node.type.policy_templates
+  module:
+    - file
+id: node.policy_templates.field_document
+field_name: field_document
+entity_type: node
+bundle: policy_templates
+label: Template
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf docx'
+  max_filesize: ''
+  description_field: false
+field_type: file
