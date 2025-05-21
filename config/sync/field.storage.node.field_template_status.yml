@@ -1,0 +1,27 @@
+uuid: 07a858b6-698e-4ded-8fe9-f13cdf2a34e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_template_status
+field_name: field_template_status
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ready_to_download
+      label: 'Ready to Download'
+    -
+      value: preview_only
+      label: 'Preview Only'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

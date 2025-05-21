@@ -1,0 +1,9 @@
+uuid: 0dc5f011-2d03-4f5a-aae5-4edb9fc5579d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Resource tags'
+vid: resource_tags
+description: null
+weight: 0
+new_revision: false

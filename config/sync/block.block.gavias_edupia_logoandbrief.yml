@@ -1,0 +1,29 @@
+uuid: eb5f520a-6e30-4ff8-a037-5fb8fb4dc37b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8b5ac134-5e88-4a7a-b009-bb86feb30790'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_edupia
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_edupia_logoandbrief
+theme: gavias_edupia
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:8b5ac134-5e88-4a7a-b009-bb86feb30790'
+settings:
+  id: 'block_content:8b5ac134-5e88-4a7a-b009-bb86feb30790'
+  label: 'Logo and brief'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

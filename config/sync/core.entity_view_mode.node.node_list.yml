@@ -1,0 +1,11 @@
+uuid: 68019bd9-44d5-4f04-bbee-9e606baeefd5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.node_list
+label: 'Regulatory Updates'
+description: ''
+targetEntityType: node
+cache: true

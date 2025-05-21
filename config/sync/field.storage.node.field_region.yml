@@ -1,0 +1,33 @@
+uuid: fc5256f2-e80c-4be8-a1ae-8a6d5517e6f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_region
+field_name: field_region
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: global
+      label: Global
+    -
+      value: european_union
+      label: 'European Union'
+    -
+      value: united_states
+      label: 'United States'
+    -
+      value: canada
+      label: Canada
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

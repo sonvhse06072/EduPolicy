@@ -1,0 +1,24 @@
+uuid: f14b9943-7928-4394-86c7-f862389eed3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.compliance_center
+  module:
+    - text
+id: node.compliance_center.body
+field_name: body
+entity_type: node
+bundle: compliance_center
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

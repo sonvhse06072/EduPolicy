@@ -1,0 +1,23 @@
+uuid: afd2cef2-eff6-47c7-bc0e-66ad04636a13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_region
+    - node.type.compliance_guides
+  module:
+    - options
+id: node.compliance_guides.field_region
+field_name: field_region
+entity_type: node
+bundle: compliance_guides
+label: Region
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: global
+default_value_callback: ''
+settings: {  }
+field_type: list_string

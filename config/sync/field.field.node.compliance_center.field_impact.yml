@@ -1,0 +1,23 @@
+uuid: b399439e-9c47-45b0-996a-41d82369c58d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_impact
+    - node.type.compliance_center
+  module:
+    - options
+id: node.compliance_center.field_impact
+field_name: field_impact
+entity_type: node
+bundle: compliance_center
+label: Impact
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: medium_impact
+default_value_callback: ''
+settings: {  }
+field_type: list_string

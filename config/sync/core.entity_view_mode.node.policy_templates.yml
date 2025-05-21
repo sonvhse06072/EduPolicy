@@ -1,0 +1,11 @@
+uuid: fd2cb342-cfab-4b66-8ee3-07491837a816
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.policy_templates
+label: 'Policy Templates'
+description: ''
+targetEntityType: node
+cache: true

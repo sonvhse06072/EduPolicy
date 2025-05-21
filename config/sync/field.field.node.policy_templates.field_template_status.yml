@@ -1,0 +1,23 @@
+uuid: 9c83c160-a575-4497-b4ab-a05a2c2ae4d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_template_status
+    - node.type.policy_templates
+  module:
+    - options
+id: node.policy_templates.field_template_status
+field_name: field_template_status
+entity_type: node
+bundle: policy_templates
+label: 'Template status'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: preview_only
+default_value_callback: ''
+settings: {  }
+field_type: list_string

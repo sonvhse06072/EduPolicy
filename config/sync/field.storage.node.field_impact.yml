@@ -1,0 +1,27 @@
+uuid: 173d4f08-e3d4-445d-83be-e8aa8e2c190f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_impact
+field_name: field_impact
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: high_impact
+      label: 'High Impact'
+    -
+      value: medium_impact
+      label: 'Medium Impact'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

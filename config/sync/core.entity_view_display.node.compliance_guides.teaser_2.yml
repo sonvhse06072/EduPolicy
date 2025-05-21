@@ -1,0 +1,41 @@
+uuid: e72f6fb2-2113-4541-843b-af98d5bd3fc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_2
+    - field.field.node.compliance_guides.body
+    - field.field.node.compliance_guides.field_document
+    - field.field.node.compliance_guides.field_image
+    - field.field.node.compliance_guides.field_region
+    - field.field.node.compliance_guides.field_resource_tags
+    - node.type.compliance_guides
+  module:
+    - image
+    - user
+id: node.compliance_guides.teaser_2
+targetEntityType: node
+bundle: compliance_guides
+mode: teaser_2
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_document: true
+  field_region: true
+  field_resource_tags: true

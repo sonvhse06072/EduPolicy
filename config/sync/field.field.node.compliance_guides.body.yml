@@ -1,0 +1,24 @@
+uuid: db7bf0ff-b08a-4b95-9ca6-3827dd625dc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.compliance_guides
+  module:
+    - text
+id: node.compliance_guides.body
+field_name: body
+entity_type: node
+bundle: compliance_guides
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

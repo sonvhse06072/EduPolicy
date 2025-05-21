@@ -1,0 +1,21 @@
+uuid: f8121e67-4dd4-46c7-8ae8-cb80c43e513f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_template_categories
+    - node.type.policy_templates
+  module:
+    - options
+id: node.policy_templates.field_template_categories
+field_name: field_template_categories
+entity_type: node
+bundle: policy_templates
+label: 'Template categories'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

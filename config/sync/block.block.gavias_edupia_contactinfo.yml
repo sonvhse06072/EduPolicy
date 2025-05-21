@@ -14,8 +14,8 @@ third_party_settings:
     classes: ''
 id: gavias_edupia_contactinfo
 theme: gavias_edupia
-region: footer_first
-weight: 0
+region: footer_four
+weight: -13
 provider: null
 plugin: 'block_content:7da38301-272f-4979-8de1-06b564010f17'
 settings:

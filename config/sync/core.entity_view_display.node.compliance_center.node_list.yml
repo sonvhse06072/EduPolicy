@@ -1,0 +1,42 @@
+uuid: 783963ca-34ee-4e15-8ec1-dad1c59cd114
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.node_list
+    - field.field.node.compliance_center.body
+    - field.field.node.compliance_center.field_impact
+    - field.field.node.compliance_center.field_region
+    - field.field.node.compliance_center.field_resource_tags
+    - node.type.compliance_center
+  module:
+    - options
+    - user
+id: node.compliance_center.node_list
+targetEntityType: node
+bundle: compliance_center
+mode: node_list
+content:
+  field_impact:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_resource_tags:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_region: true

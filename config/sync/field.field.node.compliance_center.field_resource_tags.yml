@@ -1,0 +1,29 @@
+uuid: aafd22ad-2142-48b8-b0b5-f38983beecd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_tags
+    - node.type.compliance_center
+    - taxonomy.vocabulary.resource_tags
+id: node.compliance_center.field_resource_tags
+field_name: field_resource_tags
+entity_type: node
+bundle: compliance_center
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      resource_tags: resource_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

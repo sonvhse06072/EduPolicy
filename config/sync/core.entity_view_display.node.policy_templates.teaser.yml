@@ -1,0 +1,36 @@
+uuid: 2556b230-1296-4b70-9e61-31929e333bd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.policy_templates.body
+    - field.field.node.policy_templates.field_resource_tags
+    - field.field.node.policy_templates.field_template_categories
+    - field.field.node.policy_templates.field_template_status
+    - node.type.policy_templates
+  module:
+    - text
+    - user
+id: node.policy_templates.teaser
+targetEntityType: node
+bundle: policy_templates
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_resource_tags: true
+  field_template_categories: true
+  field_template_status: true
