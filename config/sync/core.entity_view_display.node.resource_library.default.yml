@@ -1,0 +1,65 @@
+uuid: 05374804-6505-4f4a-918d-566b3f88edf3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.resource_library.body
+    - field.field.node.resource_library.field_image
+    - field.field.node.resource_library.field_level
+    - field.field.node.resource_library.field_resource_type
+    - field.field.node.resource_library.field_summary
+    - node.type.resource_library
+  module:
+    - image
+    - options
+    - text
+    - user
+id: node.resource_library.default
+targetEntityType: node
+bundle: resource_library
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: wide
+    third_party_settings: {  }
+    weight: -1
+    region: content
+  field_level:
+    type: list_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_resource_type:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_summary:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

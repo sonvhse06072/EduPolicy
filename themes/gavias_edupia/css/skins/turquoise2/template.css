@@ -4703,31 +4703,11 @@ body.maintenance-page {
 }
 
 .views-exposed-form {
-  display: table;
   width: 100%;
 }
 
 .views-exposed-form .block-content {
   width: 100% !important;
-}
-
-.views-exposed-form > div {
-  display: table-cell;
-}
-
-@media (max-width: 991.98px) {
-  .views-exposed-form > div {
-    display: block;
-    width: 50%;
-    margin-bottom: 15px;
-    float: left;
-  }
-}
-
-@media (max-width: 400px) {
-  .views-exposed-form > div {
-    width: 100%;
-  }
 }
 
 .views-exposed-form .js-form-item-items-per-page label {
@@ -8256,12 +8236,16 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
 
 .btn-light {
   background: #fff;
-  color: #20c997;
+  color: #178E94;
 }
 
 .btn-light:hover {
-  color: #004d4d;
-  background: #fff;
+  color: #178E94;
+  background: rgb(229.5, 229.5, 229.5);
+}
+
+.scrolling-wrapper {
+  overflow-x: auto;
 }
 
 /*************** Progress Bars ***************/
@@ -8501,7 +8485,7 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
 .panel .panel-heading .panel-title > a {
   display: block;
   letter-spacing: 0;
-  color: #000;
+  color: #178E94;
   position: relative;
   background: #fff;
   line-height: 28px;
@@ -8528,6 +8512,15 @@ input[type=button] .button--inverted, .btn .button--inverted, .btn-white .button
   border: none !important;
   line-height: 28px;
   padding: 10px 30px 0;
+}
+
+.panel .panel-body ul li {
+  list-style: inherit;
+  list-style-image: url(/themes/gavias_edupia/images/li.svg);
+}
+
+.panel .panel-body ul li::marker {
+  font-size: 1.5rem;
 }
 
 .dropcap {
@@ -11967,12 +11960,16 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   line-height: 1.5;
 }
 
+.widget.milestone-block .milestone-number-inner {
+  margin-bottom: 0.75rem;
+}
+
 .widget.milestone-block .milestone-number {
   font-size: 30px;
   line-height: 30px;
   font-weight: 600;
   margin: 15px 0;
-  color: #000;
+  color: #178E94;
   font-family: "Georgia", sans-serif;
 }
 
@@ -11981,6 +11978,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-weight: 600;
   color: #273044;
   font-family: "Georgia", sans-serif;
+  margin-bottom: 0.75rem;
 }
 
 @media (max-width: 991.98px) {
@@ -13594,6 +13592,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   font-size: 34px;
   line-height: 1.16;
   text-transform: capitalize;
+  color: #178E94;
 }
 
 @media (max-width: 991.98px) {

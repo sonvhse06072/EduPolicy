@@ -1,0 +1,45 @@
+uuid: 90ce97c0-fd6a-426a-9324-edb1d3bdb970
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_2
+    - field.field.node.partner.body
+    - field.field.node.partner.field_become_a_partner_from
+    - field.field.node.partner.field_category
+    - field.field.node.partner.field_image
+    - field.field.node.partner.field_partner_region
+    - field.field.node.partner.field_partner_type
+    - field.field.node.partner.field_specialties
+    - node.type.partner
+  module:
+    - image
+    - user
+id: node.partner.teaser_2
+targetEntityType: node
+bundle: partner
+mode: teaser_2
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_become_a_partner_from: true
+  field_category: true
+  field_partner_region: true
+  field_partner_type: true
+  field_specialties: true

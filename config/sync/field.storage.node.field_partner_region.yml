@@ -1,0 +1,21 @@
+uuid: fd6a6f43-9111-4a07-bf02-563c8099a205
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_partner_region
+field_name: field_partner_region
+entity_type: node
+type: string
+settings:
+  max_length: 20
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

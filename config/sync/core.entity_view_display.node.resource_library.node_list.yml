@@ -1,0 +1,30 @@
+uuid: 6e885f89-e65f-4114-8ede-8759acde5e20
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.node_list
+    - field.field.node.resource_library.body
+    - field.field.node.resource_library.field_image
+    - field.field.node.resource_library.field_level
+    - field.field.node.resource_library.field_resource_type
+    - field.field.node.resource_library.field_summary
+    - node.type.resource_library
+  module:
+    - user
+id: node.resource_library.node_list
+targetEntityType: node
+bundle: resource_library
+mode: node_list
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_image: true
+  field_level: true
+  field_resource_type: true
+  field_summary: true

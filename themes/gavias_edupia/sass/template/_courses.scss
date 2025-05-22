@@ -278,22 +278,9 @@
 }
 
 .views-exposed-form{
-   display: table;
     width: 100%;
     .block-content{
       width: 100%!important;
-    }
-    > div{
-      display: table-cell;
-      @include media-breakpoint-down(md){
-        display: block;
-        width: 50%;
-        margin-bottom: 15px;
-        float: left;
-      }
-      @media(max-width: 400px){
-        width: 100%;
-      }
     }
     .js-form-item-items-per-page label{
       display: none!important;

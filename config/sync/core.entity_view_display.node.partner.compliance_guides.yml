@@ -1,0 +1,46 @@
+uuid: e40624b2-8dc3-4543-8e48-414d5871a46a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.compliance_guides
+    - field.field.node.partner.body
+    - field.field.node.partner.field_become_a_partner_from
+    - field.field.node.partner.field_category
+    - field.field.node.partner.field_image
+    - field.field.node.partner.field_partner_region
+    - field.field.node.partner.field_partner_type
+    - field.field.node.partner.field_specialties
+    - image.style.wide
+    - node.type.partner
+  module:
+    - image
+    - user
+id: node.partner.compliance_guides
+targetEntityType: node
+bundle: partner
+mode: compliance_guides
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_become_a_partner_from: true
+  field_category: true
+  field_partner_region: true
+  field_partner_type: true
+  field_specialties: true

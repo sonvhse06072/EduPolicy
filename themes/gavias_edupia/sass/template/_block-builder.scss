@@ -115,7 +115,7 @@
       @include box-shadow(0 5px 35px rgba(0, 0, 0, 0.1));
       border: 1px solid rgba(0, 0, 0, 0.1);
       background: #fff;
-      .column-inner{ 
+      .column-inner{
         padding: 30px 20px;
         @include border-radius(6px);
         @include media-breakpoint-down(md){
@@ -253,7 +253,7 @@
   }
    .bb-inner{
       padding-top: 80px;
-      padding-bottom: 80px; 
+      padding-bottom: 80px;
       @include media-breakpoint-down(md){
         padding-top: 40px;
         padding-bottom: 40px;
@@ -289,8 +289,8 @@
               padding-right: 0!important;
             }
           }
-        }    
-      } 
+        }
+      }
       &.remove_padding_top{
         padding-top: 0!important;
       }
@@ -300,8 +300,8 @@
       &.padding-bottom-large{
         padding-bottom: 250px;
       }
-   }   
-} 
+   }
+}
 
 
 
@@ -357,7 +357,7 @@
       }
    }
 
-  
+
 
    /**************** Team ************************/
    &.gsc-team{
@@ -391,10 +391,10 @@
          color: $theme_color;
          font-weight: 400;
          font-size: 13px;
-      }  
+      }
       .team-info{
          margin: 15px 0;
-      }  
+      }
 
       &.team-horizontal{
          margin-top: 50px;
@@ -455,7 +455,7 @@
                background: $theme_color;
                @include size(45px, 1px);
                position: absolute;
-            } 
+            }
          }
          &:hover{
           .box-hover{
@@ -467,20 +467,20 @@
               @include scale(1.2);
             }
           }
-        } 
+        }
       }
       &.team-vertical{  //vertical
         margin-bottom: 30px;
         position: relative;
         background: none;
         @include transition(all 0.35s);
-        @include border-radius(6px);  
+        @include border-radius(6px);
         .team-header{
           overflow: hidden;
           position: relative;
           img{
             @include transition(all 3s);
-            display: inline-block;  
+            display: inline-block;
           }
         }
         .social-list{
@@ -550,16 +550,16 @@
             @include opacity(1);
             @include scale(1);
           }
-        }  
+        }
       }
       &.team-circle{  //vertical
         .team-header, .box-hover{
           @include border-radius(50%);
-        } 
+        }
       }
   }
 
-   
+
 
  /******************** Video Box **************************/
  &.gsc-video-box{
@@ -582,8 +582,8 @@
           position: absolute;
           top: 0;
           left: 0;
-          z-index: 11; 
-          @include size(100%, 100%); 
+          z-index: 11;
+          @include size(100%, 100%);
           .icon{
             position: absolute;
             @include size(50px, 50px);
@@ -600,7 +600,7 @@
             display: inline-block;
             text-align: center;
             line-height: 50px;
-            @include scale(2); 
+            @include scale(2);
           }
         }
       }
@@ -670,8 +670,8 @@
           position: absolute;
           top: 0;
           left: 0;
-          z-index: 19; 
-          @include size(100%, 100%); 
+          z-index: 19;
+          @include size(100%, 100%);
           .icon{
             position: absolute;
             @include size(50px, 50px);
@@ -756,12 +756,15 @@
       .milestone-right{
         line-height: 1.5;
       }
+      .milestone-number-inner {
+        margin-bottom: .75rem;
+      }
       .milestone-number {
         font-size: 30px;
         line-height: 30px;
         font-weight: 600;
         margin: 15px 0;
-        color: $black;
+        color: $theme-color;
         font-family: $font-second;
       }
       .milestone-text {
@@ -769,6 +772,7 @@
         font-weight: 600;
         color: $text-color-2;
         font-family: $font-second;
+        margin-bottom: .75rem;
         @include media-breakpoint-down(md){
           font-size: 14px;
         }
@@ -816,7 +820,7 @@
           margin-top: 10px;
         }
       }
-      
+
       &.position-icon-left{
         margin-bottom: 30px;
         .milestone-icon{
@@ -885,7 +889,7 @@
         }
       }
     }
-} 
+}
 
 .gsc-box-info{
   position: relative;
@@ -1172,7 +1176,7 @@
         position: static;
         width: 100%;
         float: left;
-      }  
+      }
     }
     .map-content{
       position: relative;
@@ -1182,13 +1186,13 @@
       @include media-breakpoint-down(md){
         position: static;
         width: 100%;
-      } 
+      }
       iframe{
         width: 100%;
         pointer-events: none;
       }
     }
-  }  
+  }
 }
 
 .gsc-button{
@@ -1353,7 +1357,7 @@
         width: 100%;
         float: left;
         clear: left;
-      }  
+      }
     }
     &:nth-child(even) {
       .hentry {
@@ -1390,7 +1394,7 @@
         clear: right;
         padding-left: 50px;
         text-align: left;
-    
+
         .icon{
           left: -35px;
         }
@@ -1481,7 +1485,7 @@
     }
     .title{
       background: none!important;
-    } 
+    }
   }
   &.style-4{
     padding: 30px;
@@ -1493,7 +1497,7 @@
       font-size: 14px;
       font-weight: 500;
       margin-bottom: 20px;
-    } 
+    }
   }
 }
 
@@ -1707,7 +1711,7 @@
         }
         .content-inner{
           max-width: 700px;
-        } 
+        }
       }
     }
   }
@@ -1832,7 +1836,7 @@
         }
       }
     }
-  } 
+  }
   &.text-light{
     .gva-countdown{
       .countdown-times{
@@ -1851,13 +1855,13 @@
 @import "elements/chart";
 @import "elements/gallery";
 @import "elements/heading-block";
-@import "elements/icon-box"; 
-@import "elements/image-content"; 
-@import "elements/instagram"; 
+@import "elements/icon-box";
+@import "elements/image-content";
+@import "elements/instagram";
 @import "elements/job-box";
 @import "elements/our-partners";
 @import "elements/quotes-rotator";
-@import "elements/services-box"; 
+@import "elements/services-box";
 @import "elements/tabs-content";
 @import "elements/tabs-views-ajax";
 @import "elements/tabs-views";

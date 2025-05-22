@@ -10,6 +10,7 @@
     font-size: 34px;
     line-height: 1.16;
     text-transform: capitalize;
+    color: $theme-color;
     @include media-breakpoint-down(md){
       font-size: 28px;
       line-height: 38px;

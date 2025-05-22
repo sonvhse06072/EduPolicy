@@ -924,11 +924,15 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
 
 .btn-light {
   background: $white;
-  color: $teal;
+  color: $theme-color;
   &:hover{
-    color: darken(teal, 10%);
-    background: $white;
+    color: $theme-color;
+    background: darken($white, 10%);
   }
+}
+
+.scrolling-wrapper {
+  overflow-x: auto;
 }
 
 /*************** Progress Bars ***************/
@@ -1124,7 +1128,7 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
       > a{
         display: block;
         letter-spacing: 0;
-        color: $black;
+        color: $theme_color;
         position: relative;
         background: $white;
         line-height: 28px;
@@ -1153,6 +1157,13 @@ input[type="button"],.btn, .btn-white, .btn-theme, .btn-black, input.js-form-sub
     border: none!important;
     line-height: 28px;
     padding: 10px 30px 0;
+    ul li {
+      list-style: inherit;
+      list-style-image: url(/themes/gavias_edupia/images/li.svg);
+      &::marker {
+        font-size: 1.5rem;
+      }
+    }
   }
 }
 

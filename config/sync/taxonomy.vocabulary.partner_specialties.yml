@@ -1,0 +1,9 @@
+uuid: 30afa358-eae0-4459-96e9-4b71694ee269
+langcode: en
+status: true
+dependencies: {  }
+name: 'Partner Specialties'
+vid: partner_specialties
+description: null
+weight: 0
+new_revision: false

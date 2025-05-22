@@ -1,0 +1,21 @@
+uuid: 4fb18f00-70c7-4d7b-b308-7add3f354c2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_partner_region
+    - node.type.partner
+id: node.partner.field_partner_region
+field_name: field_partner_region
+entity_type: node
+bundle: partner
+label: Region
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Global
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,26 @@
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="d-flex mb-3 justify-content-between align-items-center">
+      <img class="partner-logo" src={{ content.field_image[0]['#markup'] }} />
+      <div class="badge badge-success">{{ content.field_template_status }}</div>
+    </div>
+    <h5 class="color-theme">
+      {{ label }}
+    </h5>
+    <div class="mb-3">
+      {{ content.body }}
+    </div>
+    <b>Specialties</b>
+    <div class="d-flex mb-3">
+      {{ content.field_specialties }}
+    </div>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex">
+        Since&nbsp;{{ content.field_become_a_partner_from }}
+      </div>
+      <div>
+        {{ content.field_partner_region }}
+      </div>
+    </div>
+  </div>
+</div>

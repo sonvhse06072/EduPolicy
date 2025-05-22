@@ -1,0 +1,18 @@
+<div class="col-lg-6 mb-3">
+  <div class="card mb-4">
+    <img class="card-img-top" src={{ content.field_image[0]['#markup'] }} />
+    <div class="card-body">
+      <div class="d-flex mb-3 justify-content-between align-items-center">
+        <span class="badge badge-primary">{{ content.field_resource_type }}</span>
+        <div>{{ content.field_level }}</div>
+      </div>
+      <h5{{ title_attributes.addClass('node__title title') }}>
+        <span><a href="{{ url }}" rel="bookmark">{{ label }}</a></span>
+      </h5>
+      <div class="mb-3">
+        {{ content.field_summary }}
+      </div>
+      <a href="{{ content.field_document[0]['#markup'] }}" class="color-teal">View Resource</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+uuid: c1ac580c-1804-4702-bf40-011475bcccbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser_2
+    - field.field.node.resource_library.body
+    - field.field.node.resource_library.field_image
+    - field.field.node.resource_library.field_level
+    - field.field.node.resource_library.field_resource_type
+    - field.field.node.resource_library.field_summary
+    - node.type.resource_library
+  module:
+    - image
+    - user
+id: node.resource_library.teaser_2
+targetEntityType: node
+bundle: resource_library
+mode: teaser_2
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_level: true
+  field_resource_type: true
+  field_summary: true

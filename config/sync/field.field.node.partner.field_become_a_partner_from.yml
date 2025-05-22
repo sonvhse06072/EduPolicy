@@ -1,0 +1,19 @@
+uuid: e79ac1f7-57db-4050-b230-aea3d3932fcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_become_a_partner_from
+    - node.type.partner
+id: node.partner.field_become_a_partner_from
+field_name: field_become_a_partner_from
+entity_type: node
+bundle: partner
+label: 'Become a partner from'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
