@@ -1,0 +1,24 @@
+uuid: 1f904241-a085-4964-bb34-a48ad2abf73e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.event
+    - field.storage.commerce_product.field_full_content
+    - filter.format.full_html
+  module:
+    - text
+id: commerce_product.event.field_full_content
+field_name: field_full_content
+entity_type: commerce_product
+bundle: event
+label: 'Full content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

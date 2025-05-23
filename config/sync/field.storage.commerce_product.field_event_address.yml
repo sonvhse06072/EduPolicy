@@ -1,19 +1,17 @@
-uuid: 7c99d233-6a03-448d-b9b0-5eb7a2116a8f
+uuid: 10f3fac1-7e0a-4d61-9bad-6ea88cb14cc2
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-_core:
-  default_config_hash: ZkHebJPOjUXYCPSuVtfRJmwGP2qi8xlVpFmYc7bASqk
-id: node.field_event_map
-field_name: field_event_map
-entity_type: node
+    - commerce_product
+id: commerce_product.field_event_address
+field_name: field_event_address
+entity_type: commerce_product
 type: string
 settings:
   max_length: 255
-  is_ascii: false
   case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
 cardinality: 1

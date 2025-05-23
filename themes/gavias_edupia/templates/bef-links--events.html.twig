@@ -1,0 +1,16 @@
+<div class="mb-5">
+  <div class="row flex-row flex-nowrap align-items-center justify-content-center">
+    {% for key, item in links %}
+      {% if key in selected %}
+        <div class="col-auto mb-2">
+          {{ item|add_class('btn btn-block btn-primary') }}
+        </div>
+      {% else %}
+        <div class="col-auto mb-2">
+          {{ item }}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+

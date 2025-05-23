@@ -1,0 +1,43 @@
+{#
+/**
+ * @file
+ *
+ * Default product template.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - product: The rendered product fields.
+ *   Use 'product' to print them all, or print a subset such as
+ *   'product.title'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ product|without('title') }}
+ *   @endcode
+ * - product_entity: The product entity.
+ * - product_url: The product URL.
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="card">
+  <div class="card-body">
+    <div class="mb-3 font-weight-bold">
+      {{ product.field_event_type }}
+    </div>
+    <h5 class="color-theme mb-3">
+      <span><a href="{{ product_url }}" class="color-theme">{{ product.title }}</a></span>
+    </h5>
+    <div class="d-flex align-items-center mb-2"><i class="fa fa-calendar mr-2"></i>{{ product.field_event_start }} </div>
+    <div class="d-flex align-items-center mb-2"><i class="fa fa-map-marker mr-2"></i>{{ product.field_event_address }}</div>
+    <div class="mb-3">
+      {{ product.body }}
+    </div>
+    <div class="d-flex align-items-center justify-content-between">
+      <div class="event-price color-theme font-weight-bold">
+        {{ product.variation_price }}
+      </div>
+      <a href="{{ product_url }}" class="btn btn-teal">Register</a>
+    </div>
+  </div>
+</div>

@@ -1,18 +1,16 @@
-uuid: a8c98c42-299e-4840-bd62-2b66b57a9e79
+uuid: 951d7f68-5190-40eb-a29f-d989c10653a8
 langcode: en
 status: true
 dependencies:
   module:
+    - commerce_product
     - datetime
-    - node
-_core:
-  default_config_hash: 2jvnrPAjAx_F8e7PkwQdTY--QOIbLFsIjlOMM6RxWY4
-id: node.field_event_start
+id: commerce_product.field_event_start
 field_name: field_event_start
-entity_type: node
+entity_type: commerce_product
 type: datetime
 settings:
-  datetime_type: date
+  datetime_type: datetime
 module: datetime
 locked: false
 cardinality: 1

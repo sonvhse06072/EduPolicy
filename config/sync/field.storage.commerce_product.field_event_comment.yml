@@ -1,0 +1,20 @@
+uuid: ffc201b1-3dcb-4fbd-a69a-8095bc509d16
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - commerce_product
+id: commerce_product.field_event_comment
+field_name: field_event_comment
+entity_type: commerce_product
+type: comment
+settings:
+  comment_type: default_product_comments
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
